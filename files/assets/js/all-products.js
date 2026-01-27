@@ -1,0 +1,2994 @@
+                                    const moniterNames = [
+                                        "BLUE FEATHER 15 INCH MONITOR",
+                                        "BLUE FEATHER 17 INCH MONITOR",
+                                        "BLUE FEATHER 19 INCH MONITOR",
+                                        "BLUE FEATHER 22 INCH MONITOR",
+                                        "LAPCARE 15'' MONITER (HDMI&VGA)",
+                                        "LAPCARE 20'' MONITER (HDMI&VGA)",
+                                        "ZEBRONICS 22'' INCH LED MONITOR (HDMI)",
+                                        "ZEBSTER 15.4 (V16/E16)",
+                                        "ZEBSTER 19'' INCH LED MONITOR (HDMI)"
+                                    ];
+                                const maxxionNames = [
+                                    "BNC MAXXION TYPE-2",
+                                    "EZVIZ ROBO STAND",
+                                    "FYBER 30MTR EXTENDER",
+                                    "MAXXION 10/100 POE EXTENDER WATER PROOF 30W",
+                                    "MAXXION 10/1000 POE EXTENDER 30W",
+                                    "MAXXION 1U PLASTIC RACK",
+                                    "MAXXION 3PIN POWER SOCKET",
+                                    "MAXXION 40CM POLE RING",
+                                    "MAXXION 4CH SMPS",
+                                    "MAXXION 6SOCKET POWER",
+                                    "MAXXION 8CH SMPS",
+                                    "MAXXION BNC SCREW TYPE",
+                                    "MAXXION CABEL MANAGER",
+                                    "MAXXION CABINET LOCK",
+                                    "MAXXION CRIMPING TOOL HEAVY",
+                                    "MAXXION DC SCREW TYPE",
+                                    "MAXXION DUAL SIDE POLE STAND",
+                                    "MAXXION GIGA POE EXTENDER WATER PROOF 30W",
+                                    "MAXXION GIGA POE EXTENDER WATER PROOF 90W",
+                                    "MAXXION HDMI 4K 15MTR",
+                                    "MAXXION HDMI 4K 3MTR",
+                                    "MAXXION HDMI 4K 5MTR",
+                                    "MAXXION HDMI CABEL 4K 10MTRS",
+                                    "MAXXION HDMI CABEL 4K 20MTRS",
+                                    "MAXXION HDMI CABEL 4K 30MTRS",
+                                    "MAXXION JUNCTION BOX",
+                                    "MAXXION METAL DOME STAND",
+                                    "MAXXION PUNCH DOWN TOOL",
+                                    "MAXXION ROUND BOX HEAVY",
+                                    "MAXXION ROUND BOX HEAVY 5X5",
+                                    "MAXXION SQUARE BOX HEAVY 5X5",
+                                    "MAXXION WIRE BNC ELIGHT",
+                                    "PRINTING AND SATAONARY",
+                                    "PRINTING AND STATIONARY"
+                                ];
+                            const mastelNames = [
+                                "MASTEL 2MP COLOUR+AUDIO BULLET",
+                                "MASTEL 2MP COLOUR+AUDIO DOME",
+                                "MASTEL 4 PORT POE",
+                                "MASTEL 4MP IP COLOUR BULLET PRO",
+                                "MASTEL 4MP IP COLOUR DOME",
+                                "MASTEL 6+2 PORT POE 10/100",
+                                "MASTEL 8 PORT POE",
+                                "MASTEL 8+2 PORT POE  2 UPLINK GIGA (8 PORT 10/100 + 2 10/100/1000)",
+                                "MASTEL 9+2 PORT POE 10/100",
+                                "MASTEL SMPS 4CH",
+                                "MASTEL SMPS 8CH"
+                            ];
+                        const imouNames = [
+                            "IMOU 128GB SD CARD",
+                            "IMOU 2MP  IPC-A22EP-D",
+                            "IMOU 3+3MP WIFI LINKAGE",
+                            "IMOU 3MP WIFI BULLET",
+                            "IMOU 4G OUT DOOR 2MP",
+                            "IMOU 5+5MP WIFI LINKAGE",
+                            "IMOU CRUISER 3MP OUT DOOR",
+                            "IMOU CRUISER 5MP OUT DOOR",
+                            "IMOU CRUISER SE 4MP 2K+",
+                            "IMOU CUE 2MP C22EP",
+                            "IMOU RANGER S2 4MP ROBO"
+                        ];
+                    const hikvisionNames = [
+                        "D LINK RJ 45 NEW",
+                        "DAH-4MP-IP-IR30MTR BULLET [DH-IPC-HFW1431S1P-S4]",
+                        "DS-2CE70DOT-PTLTS HIK 2MP DOME 2WAY (A)",
+                        "DS-2DE4225IW-DE E PTZ 25X",
+                        "DS-KH6320-TE1 INDOOR SCREENS",
+                        "DS-KIT321MFWX-B BIOMETRIC",
+                        "EZVIZ CS-C1C 2MP WIFI CAMERA",
+                        "EZVIZ H3C 2MP BULLET CAMERA",
+                        "EZVIZ TY1 2MP WIFI PT CAMERA",
+                        "HARD DISK 3TB [S]",
+                        "HIK 16 PORT POE 16+2 UPLINK GIGA WITH SFP",
+                        "HIK 16+1G+1S POE [DS-3E0318P-E/M]",
+                        "HIK 16CH 2MP DVR",
+                        "HIK 16CH 4MP DVR (DS-7216HQHI K1)",
+                        "HIK 16CH 4MP DVR (IDS-7216HQHI-M1/FA)",
+                        "HIK 16CH 5MP 2WAY AUDIO DVR (IDS-7216HQHI-M1/XT)",
+                        "HIK 16CH 8MP 2 SATA DVR (7216HUHI-M2/S)",
+                        "HIK 16CH M1 DVR UP TO 5 MP",
+                        "HIK 16CH NVR  NXI K1",
+                        "HIK 16CH NVR  NXI-K2 (2SATA)",
+                        "HIK 16CH NVR NI Q1",
+                        "HIK 16CH NVR NIQ1/M",
+                        "HIK 22 MONITOR",
+                        "HIK 24+1G+1S POE[DS-3E0326P-E/M]",
+                        "HIK 24G+2S POE [DS-3E0526P-E/M]",
+                        "HIK 2MP 12MM 80MT IR BULLET (DS-2CE1ADOT-IT5F)",
+                        "HIK 2MP 15X PTZ DS-2DE4215IW-DE",
+                        "HIK 2MP 20M SMART DUAL LIGHT MIC IN BULLET",
+                        "HIK 2MP 20M SMART DUAL LIGHT MIC IN DOME",
+                        "HIK 2MP 2CE18DOT-LFS",
+                        "HIK 2MP 2WAY AUDIO BULLET (DS-2CE16DOT-LPTS)",
+                        "HIK 2MP 40 MTR 6MM COLOUR(DS-2CE12DFT-F)2100",
+                        "HIK 2MP 40 MTR 6MM SMART HYBRID LIGHT (DS-2CE17DOT- LFS)",
+                        "HIK 2MP 40 MTR 8MM IR BULLET (DS-2CE1ADOT-IT3F)",
+                        "HIK 2MP 4CH 2WAY AUDIO DVR M1/T",
+                        "HIK 2MP 6MM IR BULLET (DS- 2CE1ADOT IT1F)",
+                        "HIK 2MP AUDIO BULLET 2WAY OLD(DS-2CE16DOT-LPTS)",
+                        "HIK 2MP COLOUR  MIC DOME",
+                        "HIK 2MP COLOUR HD PT",
+                        "HIK 2MP COLOUR MIC BULLET",
+                        "HIK 2MP ECO BULLET",
+                        "HIK 2MP IP COLOR+AUDIO BULLET (Black)",
+                        "HIK 2MP IP COLOUR +AUDIO BULLET (P)",
+                        "HIK 2MP IP COLOUR BULLET (M)",
+                        "HIK 2MP IP COLOUR+MIC DOME",
+                        "HIK 2MP IP DOME COLOUR+AUDIO (P)",
+                        "HIK 2MP IP HYBRID BULLET (B) 3021G2E-LIU",
+                        "HIK 2MP IP HYBRID+MIC  DOME",
+                        "HIK 2MP IP HYBRID+MIC BULLET",
+                        "HIK 2MP IP IR BULLET",
+                        "HIK 2MP IP IR DOME",
+                        "HIK 2MP IR REGULER+MIC BULLET",
+                        "HIK 2MP IR REGULER+MIC DOME",
+                        "HIK 3+1 180MTRS",
+                        "HIK 32CH 5MP/3K DVR M2/XT",
+                        "HIK 32CH NVR NXI-K2 (2SATA)",
+                        "HIK 32CH NVR NXI-K4 4SATA",
+                        "HIK 3K 20M SMART DUAL LIGHT MIC IN BULLET",
+                        "HIK 3K 2OM SMART DUAL LIGHT MIC IN DOME",
+                        "HIK 4+2 POE [DS-3E0106P-E/M]",
+                        "HIK 4CH  DVR 5MP M1",
+                        "HIK 4CH 2MP DVR",
+                        "HIK 4CH 4MP DVR (DS-7204HQHI-M1/FA)",
+                        "HIK 4CH 5MP EDVR 1TB (E04HQHI-D)",
+                        "HIK 4CH 8MP DVR (IDS-7204HUHI-M1/FA)",
+                        "HIK 4CH EDVR 1TB (EO4HGHI-E)",
+                        "HIK 4CH EDVR 320GB (E04HGHI-B)",
+                        "HIK 4CH EDVR 512GB (E04HGHI-D)",
+                        "HIK 4CH NVR NI-Q1/M",
+                        "HIK 4CH NVR NXI K1",
+                        "HIK 4CH NVR-NI-Q1",
+                        "HIK 4G+1G POE [DS-3E0505P-E/M]  FULL GIG",
+                        "HIK 4MP IP BULLET",
+                        "HIK 4MP IP COLOUR + MIC BULLET (P)",
+                        "HIK 4MP IP COLOUR BULLET + MIC (B) (2CD3041G2E-LIU)",
+                        "HIK 4MP IP COLOUR VIEW +MIC DOME",
+                        "HIK 4MP IP COLOUR VIEW BULLET (M)",
+                        "HIK 4MP IP COLOUR+MIC DOME (P)",
+                        "HIK 4MP IP DOME",
+                        "HIK 4MP IP DOME HYD(DS-2CD1343G2-LIUF/SL)",
+                        "HIK 4MP IP HYBRID DOME (1341G2-LIU)",
+                        "HIK 4MP IP HYBRID+MIC BULLET",
+                        "HIK 4MP IP HYBRID+MIC DOME",
+                        "HIK 4MP IP HYBRIDE BULLET - 2CD1041G2-LIU",
+                        "HIK 4MP IP IR BULLET -2CD1041GO-I",
+                        "HIK 4MP IP IR BULLET 6MM LENS",
+                        "HIK 4MP IP PTZ (2DE4425IW-DE E)",
+                        "HIK 4MP IP VERIFOCAL (VF) BULLET",
+                        "HIK 4MP IP VF SMART HYBRIDE (2CD3641G2-LIZS)",
+                        "HIK 4MP PTZ",
+                        "HIK 5MP 3K COLOUR+MIC VU BULLET",
+                        "HIK 5MP 3K COLOUR+MIC VU DOME",
+                        "HIK 5MP 40 MTR 8MM IR BULLET (DS-2CE1AHOT-IT3F)",
+                        "HIK 5MP NORMAL+MIC DOME",
+                        "HIK 5MP REGULAR+MIC BULLET",
+                        "HIK 64 CH NVR 4 SATA DS-7764NI-M4",
+                        "HIK 6MP IP BULLET COLOUR+AUDIO (N)",
+                        "HIK 6MP IP COLOUR A+B (2CD3061G2E-LIU)",
+                        "HIK 6MP IP COLOUR DOME(B) 2CD3161G2E-LIU",
+                        "HIK 6MP IP DOME COLOUR+AUDIO",
+                        "HIK 6MP IP HYBRID+MIC BULLET",
+                        "HIK 6MP IP HYBRID+MIC DOME",
+                        "HIK 8+2G POE[DS-3E0310P-E/M]",
+                        "HIK 8CH 2MP 2WAY AUDIO DVR M1/T",
+                        "HIK 8CH 2MP DVR",
+                        "HIK 8CH 4MP DVR (IDS-7208HQHI-M1/FA)",
+                        "HIK 8CH 5MP 2WAY AUDIO DVR (IDS-7208HQHI-M1/XT)",
+                        "HIK 8CH 5MP DVR M1/S",
+                        "HIK 8CH 5MP EDVR 1TB (E08HQHI-B))",
+                        "HIK 8CH 8MP DVR (IDS-7208HUHI-M1/FA)",
+                        "HIK 8CH EDVR 1TB (EO8HGHI-D)",
+                        "HIK 8CH NVR NI Q1",
+                        "HIK 8CH NVR NIQ1/M",
+                        "HIK 8CH NVR NXI K1",
+                        "HIK 8CH NVR NXI K2",
+                        "HIK 8G+1G+1S POE [DS-3EO510P-E/M]",
+                        "HIK 8PORT POE",
+                        "HIK BIOMETRIC",
+                        "HIK BIOMETRIC-B",
+                        "HIK C3N",
+                        "HIK C6",
+                        "HIK C8C",
+                        "HIK DS-2CE1ACOT-VF",
+                        "HIK H8C  4MP 6MM",
+                        "HIK IP VIDEO DOOR KIT (KIS603-P (C)",
+                        "HIK SMPS 10AMPS (8CH)",
+                        "HIK SMPS 20AMPS (16CH)",
+                        "HIK SMPS 5AMPS",
+                        "HIK VIDEO DOOR KIT HD (KIS402-P)",
+                        "HIK WIRELESS EXTERNAL SOUNDER (DS-PS1-E-WB)",
+                        "HIK WIRLESS INTRUSION ALARM AX PRO KIT",
+                        "HIKVISION 19'' MONITOR"
+                    ];
+                const hiFocusNames = [
+                    "3+1 HIFOCUS OUTDOOR CABLE",
+                    "HI FOCUS 4G SOLAR",
+                    "HI FOCUS 8+2GIGA POE",
+                    "HIFOCUS (HF) 4 PORT POE SWITCH 10/100",
+                    "HIFOCUS (HF) 4G ROUTER",
+                    "HIFOCUS (HF) 8 PORT POE SWITCH 10/100",
+                    "HIFOCUS 2.4MP  IR DOME",
+                    "HIFOCUS 2.4MP COLOUR BULLET",
+                    "HIFOCUS 2.4MP COLOUR BULLET +AUDIO",
+                    "HIFOCUS 2.4MP COLOUR DOME+AUDIO",
+                    "HIFOCUS 4CH DVR",
+                    "HIFOCUS 8CH DVR",
+                    "HIFOCUS CAT 6 INDOOR (HF)"
+                ];
+            const finolexNames = [
+                "CAT6 LAN GRY 100MTR NEW",
+                "FINOLEX CAT 6 305 MTR(NEW)",
+                "FINOLEX CAT6 GRY 100MTRS",
+                "FINOLEX CAT6 LAN YLW 305MTR CABLE",
+                "FINOLEX TELEPHONE WIRE"
+            ];
+        const ezvizNames = [
+            "EZVIZ 4G H8C 3MP  OUTDOOR",
+            "EZVIZ 8CH NVR (CS-X5S)",
+            "EZVIZ CP1 LITE",
+            "EZVIZ EB3 -3MP BATTERY BULLET",
+            "EZVIZ H1C MINI CAMERA",
+            "EZVIZ H4 3MP POE DOME",
+            "EZVIZ H5 POE BULLET",
+            "EZVIZ H5C 4G BULLET",
+            "EZVIZ H6C 2MP",
+            "EZVIZ H7C DUAL 2K",
+            "EZVIZ H8C 2MP OUTDOOR PT",
+            "EZVIZ H8C 2MP WIFI",
+            "EZVIZ H8C 3MP POE",
+            "EZVIZ H8C 4G 2K OUTDOOR",
+            "EZVIZ H8C WIFI 4MP",
+            "EZVIZ HB8 4G 3MP SOLAR OUTDOOR",
+            "EZVIZ SMART HOME SOLAR PANEL",
+            "EZVIZ WIFI H9C 3+3",
+            "EZVIZ WIFI H9C 5+5"
+        ];
+    const erdNames = [
+        "ERD 12V - 5AMP ADAPTOR",
+        "ERD 12V-1AMP PLUGIN",
+        "ERD 12V-2AMP PLUGIN",
+        "ERD 12V-3AMP DESKTOP SWITCH",
+        "ERD 12V-3AMP PLUGIN",
+        "ERD 16CH SMPS",
+        "ERD 48V-1.25AMP POE ADAPTER",
+        "ERD 4CH SMPS",
+        "ERD 5V 1 AMP PLUGIN",
+        "ERD 8CH SMPS",
+        "ERD SPIKE 1.5MTRS",
+        "ERD SPIKE 3MTR",
+        "ERD SPIKE 5MTR"
+    ];
+(() => {
+    const accessoryNames = [
+        
+        "10MM CLIPS",
+        "128GB HP SD CARD",
+        "2MP VIDEO BALUN  BLUE",
+        "2PIN CONNECTOR  BNC",
+        "2U MINI RACK - 450 (N)",
+        "2X1 LAN COPULER",
+        "3 PIN POWER CABLE",
+        "3PIN POWER CABLE",
+        "4CH VIDEO BALOON",
+        "4PIN 12V 5AMP ADAPT0R",
+        "4X4 ELCO  BRASS BOX",
+        "4X4 ELCO PVC BOX",
+        "4X4 ELCO PVC OUTDOORE BOX",
+        "4X4 JASCOM PVC BOX",
+        "4X4 PVC BOX (N)",
+        "4X4 ROUND BOX",
+        "4X4 ROUND PVC",
+        "4x4 SQARE PVC BOX",
+        "5MP VIDEO BALUN - VIDEO (BLACKCORD)",
+        "5X5  JASCOM PVC BOX",
+        "6MM CLIPS",
+        "8CH VIDEO BALOON",
+        "8MM CLIPS",
+        "8MP VIDEO BULEN -YELLOW",
+        "A2 SQUARE 4G SIM ROUTER",
+        "BATTERY",
+        "BLUE RJ45 CRIMPING TOOL",
+        "BNC JASCOM WIRE",
+        "BNC MAXXION",
+        "BNC ORANGE",
+        "BNC PIN BLUE",
+        "BNC SECUREYE S-B10",
+        "BNC WIRELESS JASCOM",
+        "BOSI RJ45 CRIMPING TOOL",
+        "BULLET CAMERA STAND",
+        "CABLE CUTTERS (M)",
+        "CABLE TIES 100MM",
+        "CABLE TIES 200 MM 3.6",
+        "CABLE TIES 200MM 4.8",
+        "CABLE TIES 250MM 4.8 MM",
+        "CABLE TIES 300MM 4.8",
+        "CABLE TIES 350MM 4.8",
+        "CABLE TIES 400MM 4.8",
+        "CABLE TIES 450MM 4.8",
+        "CABLE TIES BLACK 200 MM 4.8",
+        "CABLE TIES BLACK 300 MM 4.8",
+        "CAMERA JAIL",
+        "CATRIDGE",
+        "CCTV MIC BALL",
+        "CLIMPING TOOL",
+        "CLIMPING TOOL HEAVY",
+        "CMOS 2032 BATTERY",
+        "CMOS 2PIN WIRE BATTERY",
+        "CMOS 3PIN WIRE BATTERY",
+        "CMOS 9V BATTERY",
+        "CMOS BATTERY 1220",
+        "CONTINUTY TESTER",
+        "CRIMPING TOOL BLUE",
+        "D LINK LAN TESTER",
+        "D-LINK WIFI RECEIVER 300MBPS",
+        "DC 2PIN CONNECTOR",
+        "DC PIN ORANGE",
+        "DC PIN RED WIRE (MAXXION)",
+        "DC PIN YELLOW",
+        "DC RED PIN",
+        "DOME STAND",
+        "DP TO HDMI 1.8 MTR",
+        "DP TO HDMI CONVERTOR",
+        "DP TO VGA CARBONIX",
+        "DVI TO VGA",
+        "ELECTRONICS CRONE CUTTER",
+        "EVM 64GB",
+        "FINGERS USB SPEAKER FUNBEATS",
+        "FRONTECH WIFI ADAPTER",
+        "HD PASSIVE VIDEO BALUN (LAN TO BNC) AMP",
+        "HDD CARRY CASE PLASTIC",
+        "HDMI  M TO F L SHAPE",
+        "HDMI 1X2 RJ45 CONVERTORS",
+        "HDMI 1X2 SPLITTER",
+        "HDMI 1X2 SPLITTER GVISION",
+        "HDMI 1X3  SWITCH REMOTE AMP",
+        "HDMI 1X4 SPLITTER",
+        "HDMI 1X8 SPLITTER",
+        "HDMI 30 MTR LAN EXTENDER (AMP)",
+        "HDMI 4K 5MTRS CABLE (MX-HC105)",
+        "HDMI 4X1 QUAD CONVERTOR",
+        "HDMI 60 MTRS EXTENDER",
+        "HDMI BI DIRECTION SWITCH 1X2",
+        "HDMI EXTENDAR UPTO 120MTR",
+        "HDMI EXTENDAR UPTO 60MTR",
+        "HDMI EXTENDER 30MTR",
+        "HDMI EXTENDER 50M",
+        "HDMI KVM 120 MTR EXTENDER",
+        "HDMI KVM 60 MTR EXTENDER",
+        "HDMI M & F CUPLUR  (M)",
+        "HDMI SPLITTER 2 PORT",
+        "HDMI SWITCH 2 PORT",
+        "HDMI SWITCH REMOTE 1X3",
+        "HDMI TO AV",
+        "HDMI TO MINI HDMI 1.5MTR CABLE",
+        "HDMI TO VGA ADAPTER",
+        "HDMI TO VGA AUDIO",
+        "HDMI TO VGA CONVERTOR",
+        "HDMI VIDEO CAPTURE CARD",
+        "HDMI VIDEO CAPTURE CARD TYPE C",
+        "HDMI Y CABLE",
+        "HIKSEMI 64GB SD CARD",
+        "HP 128GB SD CARD",
+        "HSS STEEI WIRE CUTTER",
+        "HW BATTERY",
+        "JIO 12V 2.5 AMS ADAPTOR",
+        "JIO 12V 2AMP ADAPTOR",
+        "LAN 1MTR PATCH CARD",
+        "LAN 5MTR CABLE",
+        "LAN COUPLER",
+        "LAN TESTER GLINK",
+        "LAN TESTER MULTIBYTE",
+        "LAN TESTER SMART PRO",
+        "LAN TO USB",
+        "LAN WATER PROOF JOINTER",
+        "LAPCARE WIRELESS MOUSE",
+        "LOGITECH WEBCAM BRIO100",
+        "MAXXION 10CM POLE RING",
+        "MAXXION 17CM (J TYPE) STAND",
+        "MAXXION 20CM POLE RING",
+        "MAXXION 25CM (J TYPE) STAND",
+        "MAXXION 30-60 CM ALUMINIUM EXPANDABLE STAND",
+        "MAXXION 30-60CM (I TYPE) WALL STAND",
+        "MAXXION 30-60CM (L TYPE) WALL STAND",
+        "MAXXION 30-60CM CELING DOME STAND",
+        "MAXXION 60-120 CM ALUMINIUM EXPANDABLE STAND",
+        "MAXXION METAL 2 SIDE ROAD STAND",
+        "MAXXION METAL 2 SIDE ROAD STAND RS100",
+        "MAXXION METAL CAMERA STAND HEAYY",
+        "MAXXION METAL CAMERA STAND HEAYY 1",
+        "MAXXION OUTDOOR METAL BOX (MX-D400MB)",
+        "MAXXION OUTDOOR PVC POE RACK (MX-800D)",
+        "MAXXION OUTDOOR PVC POE RACK (MX-800E)",
+        "MAXXION OUTDOOR PVC POE RACK (MX-800F)",
+        "MAXXION POE SPLITER CONNECTOR TYPE",
+        "MAXXION POLE BRACKET STAND 1FT WITH RING",
+        "MAXXION POLE BRACKET STAND WITH RING",
+        "MAXXION PTZ STAND",
+        "MAXXION WALL ROBO STAND (MX-AP180)",
+        "MAXXION WIRE MARKER",
+        "METAL DOME STAND BIG - MX-MDS402",
+        "METAL DOME STAND SMALL - MX-MDS401",
+        "MIC BALL G VISION",
+        "MINI DP TO HDMI 1.8 MTR",
+        "MINI DP TO VGA 1.8 MTR",
+        "MONITER STANDS 12 - 32 INCH",
+        "MONITER STANDS 12 - 42 INCH FIX",
+        "MONITER WALL MOUNT STAND  14-25",
+        "MULTI METER",
+        "MULTITEC STRIPPING TOOL",
+        "MX CRIMPING TOOL",
+        "OTG TYPE C",
+        "OUTDOOR RACK (H TYPE)",
+        "POE  INJECTOR",
+        "POE BOX WHITE",
+        "POE MULTI PLUXER",
+        "POE SPILTER (DC PIN)",
+        "POLE STAND BULLET (V)",
+        "POWER CABLE",
+        "POWER SPIKE 4+1 2MTR MAXXIXOM",
+        "POWER SPIKE 4+1 5MTR MAXXIXOM",
+        "POWER STRIP 4+1 2MTR",
+        "POWER STRIP 4+1 5MTR",
+        "PVC INSULATION TAPES BLACK & WHITE",
+        "RANZ 0.5 MTR SATA CABLE",
+        "RJ 45 BOOTS",
+        "RJ45 JACKS METAL",
+        "RJ45 PINS DLINK",
+        "RJ45 TO 9PIN CONNECTOR",
+        "ROYAL PLUGS",
+        "SANDISK 32GB PENDRIVE",
+        "SATA 13 7+6 PIN",
+        "SATA 7+15 + IDE",
+        "SATA 7+15 M TO F",
+        "SATA BLACK CABLE",
+        "SATA M TO 6PIN",
+        "SATA M TO 8 PIN Y CABLE",
+        "SATA POWER CABLE",
+        "SGS 4X4 PVCBOX",
+        "SMART PRO HDMI TO VGA",
+        "SMART PRO LAN TESTER",
+        "SMART PRO VGA TO HDMI",
+        "SMB CRIMPING TOOL 1",
+        "SOLDERING PAD",
+        "SP TYPE C OTG CABLE",
+        "SP USB TO C ADAPTOR",
+        "SP USB TO LAN ADAPTOR",
+        "SP WIRE TRACKER",
+        "SPIKE BRIGHT 5MTR",
+        "SPIKE MAXCOM 2MTR",
+        "SPIKE MAXCOM 5 MTR",
+        "STARTECK FM220 TYPE C",
+        "TAG 100MM",
+        "TAG 2.5 X 250 MM",
+        "TAG 200MM[3.6MM]",
+        "TAG150MM",
+        "TAGS 200MM[4.8MM]",
+        "TAGS 250[3.6MM]]",
+        "TENDA 1KM POINT TO POINT",
+        "TENDA 500MTR POINT TO POINT",
+        "TP LINK 5PORT GIGA SWITCH(TL-SG1005D)",
+        "TP LINK 8PORT GIGA SWITCH",
+        "TP LINK AC1200 ROUTER A C6",
+        "TP LINK AC750 ROUTER C20",
+        "TVS PLTINA WIRELESS COMBO KEYBOARD",
+        "TYPE C TO HDMI CONVERTER",
+        "TYPE-C OTG",
+        "TYPE-C TO HDMI ADAPTER",
+        "USB 3MTR EXTENSION",
+        "USB ETHERNET ADAPTER RANZ",
+        "USB EXTENDER",
+        "USB EXTENSION  1.5 MTR CABLE ANZ",
+        "USB EXTENSION 200 MTRS",
+        "USB HUB 3.0 4 PORT",
+        "USB TO HDMI CONVERTOR",
+        "VALE STAND BULLET (FLAT)",
+        "VGA 1X2 SWITCH",
+        "VGA 1X4 SWITCH",
+        "VGA TO HDMI ADAPTER",
+        "VGA TO HDMI CONVERTOR  (AMP)",
+        "VOLTAIC 1.5 MTR SPIKE",
+        "VOLTAIC 3+1 180mtr",
+        "VOLTAIC WIRLESS BNC",
+        "VOLTIC SPIKE 3MTRS",
+        "WALL MOUNT STEND",
+        "WATER BOTTLE",
+        "WIRE TRACKER",
+        "YAD ON UPS",
+        "YADON BATERY"
+    ];
+
+    // List of image files available for ACCESSORIES (from assets/imagesssss/ACCESORIES)
+    const accessoryImageFiles = [
+        "10MM CLIPS.jpg",
+        "128GB HP SD CARD.jpg",
+        "2MP VIDEO BALUN  BLUE.jpg",
+        "2PIN CONNECTOR  BNC.jpg",
+        "2U MINI RACK - 450 (N).jpg",
+        "2X1 LAN COPULER.jpg",
+        "3 PIN POWER CABLE.jpg",
+        "4CH VIDEO BALOON.jpg",
+        "4PIN 12V 5AMP ADAPT0R.jpg",
+        "4X4 ELCO  BRASS BOX.jpg",
+        "4X4 ELCO PVC BOX.jpg",
+        "4X4 ELCO PVC OUTDOORE BOX.jpg",
+        "4X4 JASCOM PVC BOX.jpg",
+        "4X4 PVC BOX (N).jpg",
+        "4X4 ROUND BOX.jpg",
+        "4X4 ROUND PVC.jpg",
+        "4x4 SQARE PVC BOX.jpg",
+        "5MP VIDEO BALUN - VIDEO (BLACKCORD).jpg",
+        "5X5  JASCOM PVC BOX.jpg",
+        "6MM CLIPS.jpg",
+        "8CH VIDEO BALOON.jpg",
+        "8MM CLIPS.jpg",
+        "8MP VIDEO BULEN -YELLOW.jpg",
+        "A2 SQUARE 4G SIM ROUTER.jpg",
+        "BATTERY.jpg",
+        "BLUE RJ45 CRIMPING TOOL.jpg",
+        "BNC JASCOM WIRE.jpg",
+        "BNC MAXXION.jpg",
+        "BNC ORANGE.jpg",
+        "BNC PIN BLUE.jpg",
+        "BNC SECUREYE S-B10.jpg",
+        "BNC WIRELESS JASCOM.jpg",
+        "BOSI RJ45 CRIMPING TOOL.jpg",
+        "BULLET CAMERA STAND.jpg",
+        "CABLE CUTTERS (M).jpg",
+        "CABLE TIES 100MM.jpg",
+        "CABLE TIES 200 MM 3.6.jpg",
+        "CABLE TIES 200MM 4.8.jpg",
+        "CABLE TIES 250MM 4.8 MM.jpg",
+        "CABLE TIES 300MM 4.8.jpg",
+        "CABLE TIES 350MM 4.8.jpg",
+        "CABLE TIES 400MM 4.8.jpg",
+        "CABLE TIES 450MM 4.8.jpg",
+        "CABLE TIES BLACK 200 MM 4.8.jpg",
+        "CABLE TIES BLACK 300 MM 4.8.jpg",
+        "CAMERA JALI.jpg",
+        "CATRIDGE.jpg",
+        "CCTV MIC BALL.jpg",
+        "CLIMPING TOOL HEAVY.jpg",
+        "CLIMPING TOOL.jpg",
+        "CMOS 2032 BATTERY.jpg",
+        "CMOS 2PIN WIRE BATTERY.jpg",
+        "CMOS 3PIN WIRE BATTERY.jpg",
+        "CMOS 9V BATTERY.jpg",
+        "CMOS BATTERY 1220.jpg",
+        "CONTINUTY TESTER.jpg",
+        "CRIMPING TOOL BLUE.jpg",
+        "D LINK LAN TESTER.jpg",
+        "D-LINK WIFI RECEIVER 300MBPS.jpg",
+        "DC 2PIN CONNECTOR.jpg",
+        "DC PIN ORANGE.jpg",
+        "DC PIN RED WIRE (MAXXION).jpg",
+        "DC PIN YELLOW.jpg",
+        "DC RED PIN.jpg",
+        "DOME STAND.jpg",
+        "DP TO HDMI 1.8 MTR.jpg",
+        "DP TO HDMI CONVERTOR.jpg",
+        "DP TO VGA CARBONIX.jpg",
+        "DVI TO VGA.jpg",
+        "ELECTRONICS CRONE CUTTER.jpg",
+        "EVM 64GB.jpg",
+        "FINGERS USB SPEAKER FUNBEATS.jpg",
+        "FRONTECH WIFI ADAPTER.jpg",
+        "HD PASSIVE VIDEO BALUN (LAN TO BNC) AMP.jpg",
+        "HDD CARRY CASE PLASTIC.jpg",
+        "HDMI  M TO F L SHAPE.jpg",
+        "HDMI 1X2 RJ45 CONVERTORS.jpg",
+        "HDMI 1X2 SPLITTER GVISION.jpg",
+        "HDMI 1X2 SPLITTER.jpg",
+        "HDMI 1X3  SWITCH REMOTE AMP.jpg",
+        "HDMI 1X4 SPLITTER.jpg",
+        "HDMI 1X8 SPLITTER.jpg",
+        "HDMI 30 MTR LAN EXTENDER (AMP).jpg",
+        "HDMI 4K 5MTRS CABLE (MX-HC105).jpg",
+        "HDMI 4X1 QUAD CONVERTOR.jpg",
+        "HDMI 60 MTRS EXTENDER.jpg",
+        "HDMI BI DIRECTION SWITCH 1X2.jpg",
+        "HDMI EXTENDAR UPTO 120MTR.jpg",
+        "HDMI EXTENDAR UPTO 60MTR.jpg",
+        "HDMI EXTENDER 30MTR.jpg",
+        "HDMI EXTENDER 50M.jpg",
+        "HDMI KVM 120 MTR EXTENDER.jpg",
+        "HDMI KVM 60 MTR EXTENDER.jpg",
+        "HDMI M & F CUPLUR  (M).jpg",
+        "HDMI SPLITTER 2 PORT.jpg",
+        "HDMI SWITCH 2 PORT.jpg",
+        "HDMI SWITCH REMOTE 1X3.jpg",
+        "HDMI TO AV.jpg",
+        "HDMI TO MINI HDMI 1.5MTR CABLE.jpg",
+        "HDMI TO VGA ADAPTER.jpg",
+        "HDMI TO VGA AUDIO.jpg",
+        "HDMI TO VGA CONVERTOR.jpg",
+        "HDMI VIDEO CAPTURE CARD TYPE C.jpg",
+        "HDMI VIDEO CAPTURE CARD.jpg",
+        "HDMI Y CABLE.jpg",
+        "HIKSEMI 64GB SD CARD.jpg",
+        "HP 128GB SD CARD.jpg",
+        "HSS STEEI WIRE CUTTER.jpg",
+        "HW BATTERY.jpg",
+        "JIO 12V 2.5 AMS ADAPTOR.jpg",
+        "JIO 12V 2AMP ADAPTOR.jpg",
+        "LAN 1MTR PATCH CARD.jpg",
+        "LAN 5MTR CABLE.jpg",
+        "LAN COUPLER.jpg",
+        "LAN TESTER GLINK.jpg",
+        "LAN TESTER MULTIBYTE.jpg",
+        "LAN TESTER SMART PRO.jpg",
+        "LAN TO USB.jpg",
+        "LAN WATER PROOF JOINTER.jpg",
+        "LAPCARE WIRELESS MOUSE.jpg",
+        "LOGITECH WEBCAM BRIO100.jpg",
+        "MAXXION 20CM POLE STAND.jpg",
+        "MAXXION 30-60 CM ALUMINIUM EXPANDABLE STAND.jpg",
+        "MAXXION 30-60CM (I TYPE) WALL STAND.JPG",
+        "MAXXION 30-60CM (L TYPE) WALL STAND.jpg",
+        "MAXXION 30-60CM CELING DOME STAND.jpg",
+        "MAXXION 60-120 CM ALUMINIUM EXPANDABLE STAND.jpg",
+        "MAXXION METAL 2 SIDE ROAD STAND RS100.jpg",
+        "MAXXION METAL 2 SIDE ROAD STAND.jpg",
+        "MAXXION METAL CAMERA STAND HEAYY 1.jpg",
+        "MAXXION METAL CAMERA STAND HEAYY.jpg",
+        "MAXXION OUTDOOR METAL BOX (MX-D400MB).jpg",
+        "MAXXION OUTDOOR PVC POE RACK (MX-800D).jpg",
+        "MAXXION OUTDOOR PVC POE RACK (MX-800E).jpg",
+        "MAXXION OUTDOOR PVC POE RACK (MX-800F).jpg",
+        "MAXXION POE SPLITER CONNECTOR TYPE.jpg",
+        "MAXXION POLE BRACKET STAND 1FT WITH RING.jpg",
+        "MAXXION POLE BRACKET STAND WITH RING.jpg",
+        "MAXXION PTZ STAND.jpg",
+        "MAXXION WALL ROBO STAND (MX-AP180).jpg",
+        "MAXXION WIRE MARKER.jpg",
+        "METAL DOME STAND BIG - MX-MDS402.jpg",
+        "METAL DOME STAND SMALL - MX-MDS401.jpg",
+        "MIC BALL G VISION.jpg",
+        "MINI DP TO HDMI 1.8 MTR.jpg",
+        "MINI DP TO VGA 1.8 MTR.jpg",
+        "MONITER STANDS 12 - 32 INCH.jpg",
+        "MONITER STANDS 12 - 42 INCH FIX.jpg",
+        "MONITER WALL MOUNT STAND  14-25.jpg",
+        "MULTI METER.jpg",
+        "MULTITEC STRIPPING TOOL.jpg",
+        "MX CRIMPING TOOL.jpg",
+        "OTG TYPE C.jpg",
+        "OUTDOOR RACK (H TYPE).jpg",
+        "POE  INJECTOR.jpg",
+        "POE BOX WHITE.jpg",
+        "POE MULTI PLUXER.jpg",
+        "POE SPILTER (DC PIN).jpg",
+        "POLE STAND BULLET (V).jpg",
+        "POWER CABLE.jpg",
+        "POWER SPIKE 4+1 2MTR MAXXIXOM.jpg",
+        "POWER STRIP 4+1 2MTR.jpg",
+        "POWER STRIP 4+1 5MTR.jpg",
+        "PVC INSULATION TAPES BLACK & WHITE.jpg",
+        "RANZ 0.5 MTR SATA CABLE.jpg",
+        "RJ 45 BOOTS.jpg",
+        "RJ45 JACKS METAL.jpg",
+        "RJ45 PINS DLINK.jpg",
+        "RJ45 TO 9PIN CONNECTOR.jpg",
+        "ROYAL PLUGS.jpg",
+        "SANDISK 32GB PENDRIVE.jpg",
+        "SATA 13 7+6 PIN.jpg",
+        "SATA 7+15 + IDE.jpg",
+        "SATA 7+15 M TO F.jpg",
+        "SATA BLACK CABLE.jpg",
+        "SATA M TO 6PIN.jpg",
+        "SATA M TO 8 PIN Y CABLE.jpg",
+        "SATA POWER CABLE.jpg",
+        "SGS 4X4 PVCBOX.jpg",
+        "SMART PRO HDMI TO VGA.jpg",
+        "SMART PRO LAN TESTER.jpg",
+        "SMART PRO VGA TO HDMI.jpg",
+        "SMB CRIMPING TOOL 1.jpg",
+        "SOLDERING PAD.jpg",
+        "SP TYPE C OTG CABLE.jpg",
+        "SP USB TO C ADAPTOR.jpg",
+        "SP USB TO LAN ADAPTOR.jpg",
+        "SP WIRE TRACKER.jpg",
+        "SPIKE BRIGHT 5MTR.jpg",
+        "SPIKE MAXCOM 2MTR.jpg",
+        "SPIKE MAXCOM 5 MTR.jpg",
+        "STARTECK FM220 TYPE C.jpg",
+        "TAG 100MM.jpg",
+        "TAG 2.5 X 250 MM.jpg",
+        "TAG 200MM[3.6MM].jpg",
+        "TAG150MM.jpg",
+        "TAGS 200MM[4.8MM].jpg",
+        "TAGS 250[3.6MM]].jpg",
+        "TENDA 1KM POINT TO POINT.jpg",
+        "TENDA 500MTR POINT TO POINT.jpg",
+        "TP LINK 5PORT GIGA SWITCH(TL-SG1005D).jpg",
+        "TP LINK 8PORT GIGA SWITCH.jpg",
+        "TP LINK AC1200 ROUTER A C6.jpg",
+        "TP LINK AC750 ROUTER C20.jpg",
+        "TVS PLTINA WIRELESS COMBO KEYBOARD.jpg",
+        "TYPE C TO HDMI CONVERTER.jpg",
+        "TYPE-C OTG.jpg",
+        "TYPE-C TO HDMI ADAPTER.jpg",
+        "USB 3MTR EXTENSION.jpg",
+        "USB ETHERNET ADAPTER RANZ.jpg",
+        "USB EXTENDER.jpg",
+        "USB EXTENSION  1.5 MTR CABLE ANZ.jpg",
+        "USB EXTENSION 200 MTRS.jpg",
+        "USB HUB 3.0 4 PORT.jpg",
+        "USB TO HDMI CONVERTOR.jpg",
+        "VALE STAND BULLET (FLAT).jpg",
+        "VGA 1X2 SWITCH.jpg",
+        "VGA 1X4 SWITCH.jpg",
+        "VGA TO HDMI ADAPTER.jpg",
+        "VGA TO HDMI CONVERTOR  (AMP).jpg",
+        "VOLTAIC 1.5 MTR SPIKE.jpg",
+        "VOLTAIC 3+1 180mtr.jpg",
+        "VOLTAIC WIRLESS BNC.jpg",
+        "VOLTIC SPIKE 3MTRS.jpg",
+        "WALL MOUNT STEND.jpg",
+        "WATER BOTTLE.jpg",
+        "WIRE TRACKER.jpg",
+        "YAD ON UPS.jpg",
+        "YADON BATERY.jpg"
+    ];
+
+    const _normalize = (s) => (s || "").toString().replace(/[^a-z0-9]/gi, "").toLowerCase();
+
+    const findAccessoryImage = (productName) => {
+        const pn = _normalize(productName);
+        for (const f of accessoryImageFiles) {
+            const base = f.replace(/\.[^.]+$/, "");
+            const fn = _normalize(base);
+            if (!fn) continue;
+            if (fn.includes(pn) || pn.includes(fn)) {
+                return `assets/img/accessoryimages /ACCESORIES 3/${encodeURIComponent(f)}`;
+            }
+        }
+        // Fallback: try common filename variants based on product name
+        try {
+            const cleaned = (productName || "").toString().trim();
+            if (!cleaned) return null;
+            const exts = ['jpg', 'jpeg', 'png', 'webp'];
+            // try raw name with extensions
+            for (const ext of exts) {
+                const candidate = `${cleaned}.${ext}`;
+                // prefer exact file if present in the known list
+                if (accessoryImageFiles.includes(candidate)) return `assets/img/accessoryimages /ACCESORIES 3/${encodeURIComponent(candidate)}`;
+            }
+
+            // try variations: remove problematic characters and encode
+            const safe = cleaned.replace(/[\\/:*?"<>|]/g, '');
+            for (const ext of exts) {
+                const candidate = `${safe}.${ext}`;
+                if (accessoryImageFiles.includes(candidate)) return `assets/img/accessoryimages /ACCESORIES 3/${encodeURIComponent(candidate)}`;
+            }
+
+            // As a last resort, return a guessed path (images that exist will load)
+            // encode the original filename and try .jpg first
+            return `assets/img/accessoryimages /ACCESORIES 3/${encodeURIComponent(cleaned + '.jpg')}`;
+        } catch (e) {
+            return null;
+        }
+    };
+
+    // Helper: list of MONITOR image filenames (from assets/img/MONITOR)
+    const monitorImageFiles = [
+        // populate with filenames from assets/img/MONITOR if available
+    ];
+
+    const findMonitorImage = (productName) => {
+        const pn = _normalize(productName);
+        for (const f of monitorImageFiles) {
+            const base = f.replace(/\.[^.]+$/, "");
+            const fn = _normalize(base);
+            if (!fn) continue;
+            if (fn.includes(pn) || pn.includes(fn)) {
+                return `assets/img/MONITOR/${encodeURIComponent(f)}`;
+            }
+        }
+
+        try {
+            const cleaned = (productName || "").toString().trim();
+            if (!cleaned) return null;
+            const exts = ['jpg', 'jpeg', 'png', 'webp'];
+            for (const ext of exts) {
+                const candidate = `${cleaned}.${ext}`;
+                if (monitorImageFiles.includes(candidate)) return `assets/img/MONITOR/${encodeURIComponent(candidate)}`;
+            }
+
+            const safe = cleaned.replace(/[\\/:*?"<>|]/g, '');
+            for (const ext of exts) {
+                const candidate = `${safe}.${ext}`;
+                if (monitorImageFiles.includes(candidate)) return `assets/img/MONITOR/${encodeURIComponent(candidate)}`;
+            }
+
+            return `assets/img/MONITOR/${encodeURIComponent(cleaned + '.jpg')}`;
+        } catch (e) {
+            return null;
+        }
+    };
+
+    // Helper: list of HIKVISION image filenames (from assets/img/HIKVISON)
+    const hikvisionImageFiles = [
+        // populate with filenames from assets/img/HIKVISON if available
+    ];
+
+    const findHikvisionImage = (productName) => {
+        const pn = _normalize(productName);
+        for (const f of hikvisionImageFiles) {
+            const base = f.replace(/\.[^.]+$/, "");
+            const fn = _normalize(base);
+            if (!fn) continue;
+            if (fn.includes(pn) || pn.includes(fn)) {
+                return `assets/img/HIKVISON/${encodeURIComponent(f)}`;
+            }
+        }
+
+        try {
+            const cleaned = (productName || "").toString().trim();
+            if (!cleaned) return null;
+            const exts = ['jpg', 'jpeg', 'png', 'webp'];
+            for (const ext of exts) {
+                const candidate = `${cleaned}.${ext}`;
+                if (hikvisionImageFiles.includes(candidate)) return `assets/img/HIKVISON/${encodeURIComponent(candidate)}`;
+            }
+
+            const safe = cleaned.replace(/[\\/:*?"<>|]/g, '');
+            for (const ext of exts) {
+                const candidate = `${safe}.${ext}`;
+                if (hikvisionImageFiles.includes(candidate)) return `assets/img/HIKVISON/${encodeURIComponent(candidate)}`;
+            }
+
+            return `assets/img/HIKVISON/${encodeURIComponent(cleaned + '.jpg')}`;
+        } catch (e) {
+            return null;
+        }
+    };
+
+    // Helper: list of HDD image filenames (from assets/img/HDD)
+    const hddImageFiles = [
+        // populate with filenames from assets/img/HDD if available
+    ];
+
+    const findHddImage = (productName) => {
+        const pn = _normalize(productName);
+        for (const f of hddImageFiles) {
+            const base = f.replace(/\.[^.]+$/, "");
+            const fn = _normalize(base);
+            if (!fn) continue;
+            if (fn.includes(pn) || pn.includes(fn)) {
+                return `assets/img/HDD/${encodeURIComponent(f)}`;
+            }
+        }
+
+        try {
+            const cleaned = (productName || "").toString().trim();
+            if (!cleaned) return null;
+            const exts = ['jpg', 'jpeg', 'png', 'webp'];
+            for (const ext of exts) {
+                const candidate = `${cleaned}.${ext}`;
+                if (hddImageFiles.includes(candidate)) return `assets/img/HDD/${encodeURIComponent(candidate)}`;
+            }
+
+            const safe = cleaned.replace(/[\\/:*?"<>|]/g, '');
+            for (const ext of exts) {
+                const candidate = `${safe}.${ext}`;
+                if (hddImageFiles.includes(candidate)) return `assets/img/HDD/${encodeURIComponent(candidate)}`;
+            }
+
+            return `assets/img/HDD/${encodeURIComponent(cleaned + '.jpg')}`;
+        } catch (e) {
+            return null;
+        }
+    };
+
+    const anwizNames = [
+        "2U MINI ANWIZ",
+        "4+2+1 FULL GIGA",
+        "4G SOLAR 10X OKAM",
+        "4U MINI ANWIZ",
+        "6+6 WIFI OUT DOOR",
+        "8+2+2 FULL GIGA",
+        "AN-10X4GDULSOL-OKAM",
+        "AN-AISNGLNS-PTZ",
+        "AN-WIFI3LNS/365D",
+        "AN10X4GDULSOL-OKAM",
+        "ANWIZ 10CH NVR 4K",
+        "ANWIZ 12V2AMPS",
+        "ANWIZ 12V5AMPS",
+        "ANWIZ 16CH SMPS",
+        "ANWIZ 3+1 BLAK COPPER CABEL",
+        "ANWIZ 3+1 BLAK COPPER PREMIUM CABEL",
+        "ANWIZ 3+1 INDOOR COPPER CABEL",
+        "ANWIZ 3+1BLACK PREMIUM CABEL",
+        "ANWIZ 4CH SMPS",
+        "ANWIZ 4PORT POE",
+        "ANWIZ 5MP PTZ",
+        "ANWIZ 6MP IP GOLD (AN-PROM-6MB4)",
+        "ANWIZ 6MP IP GOLD AN-PROM-6MD4)DOME",
+        "ANWIZ 8CH SMPS",
+        "ANWIZ 8MP DOME",
+        "ANWIZ 8MP DOMES",
+        "ANWIZ 8MP+8MM LENS",
+        "ANWIZ 8PORT POE",
+        "ANWIZ 8PORT POE FULL GIGA 1SFE",
+        "ANWIZ CAT6 BLACK CABEL",
+        "ANWIZ CAT6 BLACK COPPER CABEL",
+        "ANWIZ CAT6 GREY CABEL",
+        "ANWIZ CAT6 YELLOW COPPER CABEL",
+        "ANWIZ DARK HUNTER DOME CAMERA",
+        "ANWIZ DARK HUNTER(AN-PREM-5MB5)",
+        "ANWIZ DARK HUNTER(AN-PREM-5MD5)",
+        "ANWIZ FISHEYE B7",
+        "ANWIZ FISHEYE- D7",
+        "ANWIZ GOLD 3+1 OUT DOOR CABEL",
+        "ANWIZ VANDAL B6",
+        "ANWIZ-ALM5MB2",
+        "ANWIZ-ALM5MD2",
+        "ANWIZ-ALP5MB1",
+        "ANWIZ-ALP5MD1",
+        "ANWIZ-PROM-5MB4",
+        "ANWIZ-PROM-5MD4",
+        "ANWIZ+XM4MP FACE",
+        "BNC BLACK",
+        "BNC WHITEE",
+        "CAT6 C",
+        "DC BLACK",
+        "DC WHITE",
+        "POE SWITCH 4&8 PORT COMBO",
+        "SAMPLE CAMERAS",
+        "SECURUS 4CH DVR",
+        "VOLTAIC POE BOX"
+    ];
+
+    const cableNames = [
+        "A2 3+1 GOLD CABLE",
+        "A2 3+1 OUTDOOR CABLE",
+        "CP 3+1 90 MTRS OUTDOOR",
+        "FINOLEX 2C 1SQURE POWER WIRE",
+        "FINOLEX 3+1 180MTR CABLE",
+        "FINOLEX 3+1 305 MTRS CABLE",
+        "FINOLEX 3+1 CABLE 90MTR",
+        "FINOLEX 305 MTR CAT6",
+        "FINOLEX CAT6 GRY 305MTRS CABLE",
+        "FINOLEX CAT6 LAN YLW 305MTR LOOSE CABLE",
+        "HDMI 1.5 MTR CABLE",
+        "HDMI 1.5 MTRS CABLE MAXXICOM",
+        "HDMI 1.5MTR CABLE",
+        "HDMI 10 MTR CABLE (GVISION)",
+        "HDMI 10 MTRS CABLE (GIGPLUS)",
+        "HDMI 15 MTR 4K",
+        "HDMI 15 MTRS CABLE (M)",
+        "HDMI 20 MTRS 4K CABLE",
+        "HDMI 20 MTRS CABLE",
+        "HDMI 20 MTRS CABLE 4K",
+        "HDMI 3 MTR 4K (MAXICOM)",
+        "HDMI 3 MTR 4K CABLE",
+        "HDMI 3 MTR GIGAPLUS",
+        "HDMI 3MTR CABLE RANZ",
+        "HDMI 5 MTR 4K MAXICOM",
+        "HDMI 5 MTRS CABLE",
+        "HDMI 5 MTRS CABLE (GVISION)",
+        "HDMI 5 MTRS CABLE (M)",
+        "HIFOCUS (HF) 3+1 90MTR OUTDOOR",
+        "HIFOCUS (HF) CAT6 OUTDOOR CABLE",
+        "HIFOCUS 3+1 90MTRS (HF GOLD)",
+        "HIK 3+1 90MTRS CABLE",
+        "HONEWELL 3+1 CABLE",
+        "HONEWELL CAT6 305 CABLE",
+        "HOOPE ECO 90 YARD 3+1 CABLE",
+        "HOOPEE CAT 6  305 MTRS",
+        "HOOPEE GOLD COPPER 3+1 CABLE",
+        "ICONIC 3+1 ECO 90YARDS CABLE",
+        "ICONIC 3+1 GOLD 90 MTRS CABLE",
+        "ICONIC 3+1 OUTDOOR BLACK CABLE",
+        "ICONIC 3+1 OUTDOOR CABLE",
+        "ICONIC 3+1 PREMIUM 90MTRS CABLE",
+        "INTERCOM 2 PAIR CABLE BLACK 300MTR",
+        "IPSys 3+1 90 YARDS CABLE",
+        "LAN 0.5MTR CABLE",
+        "LAN 10 MTRS CABLE (M)",
+        "LAN 20 MTRS CABLE (M)",
+        "LAN 2MTR CABLE",
+        "LAN 2MTR CAT6 CABLE",
+        "LAN 3 MTRS CABLE (M)",
+        "LAN 3MTR CABLE (GIGAPLUS)",
+        "LAN CABLE 3M GVISION(BLUE)",
+        "LAN CABLE 5 MTRS (M)",
+        "LAN CAT 6 CABLE",
+        "LAN PATCH 5 MTRS CABLE - BLACK CORD",
+        "LAN PATCH CORD 1.5M CAT6",
+        "ME PREMIUM CCTV 3+1 CAMERA OUTDOOR",
+        "SECUREYE 3+1 90YARDS CABLE",
+        "USB 5MTR EXTENSION",
+        "USB EXTENSION 20 MTR",
+        "USB EXTENSION CABLE 10MTR",
+        "VGA 1.5 MTRS CABLE",
+        "VGA 10MTR CABLE HEAVY",
+        "VGA 20M",
+        "VGA 3 MTR CABLE WHITE",
+        "VGA 5MTR CABLE",
+        "VGA TO HDMI 1.8 MTR CABLE",
+        "VOLTAIC COPPER CAT6 305 MTRS OUTDOOR",
+        "ZEBRONICS 3+1 90 MTRS PRIME CABLE",
+        "ZEBRONICS CAT6 100MTRS CABLE",
+        "ZEBRONICS CAT6 100MTRS CABLE ORIGINAL",
+        "ZEBRONICS CAT6 305MTRS CABLE"
+    ];
+
+    const cpPlusNames = [
+        "CP 16CH 2MP DVR",
+        "CP 16CH 5MP DVR",
+        "CP 16CH NVR",
+        "CP 16CH NVR 2 SATA",
+        "CP 16CH SMPS",
+        "CP 2MP BULLET 80 MTRS COSMIC",
+        "CP 2MP COLOUR BULLET (2)",
+        "CP 2MP COLOUR DOME",
+        "CP 2MP COLOUR DOME (2)",
+        "CP 2MP GUARD  COLOUR BULLET 30MTR",
+        "CP 2MP GUARD COLOUR DOME 30MTRS",
+        "CP 2MP GUARD COLOUR+AUDIO BULLET",
+        "CP 2MP GUARD COLOUR+AUDIO DOME",
+        "CP 2MP ILL BULLET",
+        "CP 2MP ILL DOME",
+        "CP 2MP INDOOR-E25A",
+        "CP 2MP IP BULLET SILVER SERIES",
+        "CP 2MP IP COLOUR BULLET CAMERA",
+        "CP 2MP IP COLOUR DOME CAMERA",
+        "CP 2MP IP DOME",
+        "CP 2MP IP DOME CAMERA",
+        "CP 2MP IP DOME IR MIC",
+        "CP 2MP IP DOME SILVER SERIES",
+        "CP 2MP IP SILVER COLOUR + AUDIO BULLET",
+        "CP 2MP IP SILVER COLOUR + AUDIO DOME",
+        "CP 2MP IR BULLET",
+        "CP 2MP IR DOME",
+        "CP 2MP IR MIC BULLET CAMERA (TC24PL3C)",
+        "CP 2MP IR MIC DOME CAMERA (DC24PL3C)",
+        "CP 2MP V3 BULLET CAMERA",
+        "CP 2MP V3 DOME CAMERA",
+        "CP 2MP V3 MIC BULLET CAMERA",
+        "CP 2MP V3 MIC DOME CAMERA",
+        "CP 2U RACK",
+        "CP 3+1 90MTR",
+        "CP 32CH NVR 2 SATA",
+        "CP 4CH 2MP DVR",
+        "CP 4CH 5MP DVR",
+        "CP 4CH NVR",
+        "CP 4CH SMPS",
+        "CP 4G OUT BULLET CAMERA",
+        "CP 4G ROUTER",
+        "CP 4MP IP COLOUR BULLET MIC CAM",
+        "CP 4MP IP COLOUR+AUDIO DOME",
+        "CP 4MP IP DL UNC-TA41L3C-D-LQ GOLD BULLET",
+        "CP 4MP IP IR AUDIO BULLET",
+        "CP 4MP IP IR DOME  CAMERA",
+        "CP 4PORT POE SWITCH",
+        "CP 4U RACK",
+        "CP 5MP COLOUR BULLET CAMERA",
+        "CP 5MP COLOUR DOME CAMERA",
+        "CP 5MP GUARD + BULLET AUDIO",
+        "CP 5MP ILLMAX BULLET",
+        "CP 8+2 UPLINK 10/100 POE SWITCH",
+        "CP 8CH 2MP DVR",
+        "CP 8CH 5MP DVR",
+        "CP 8CH NVR",
+        "CP 8CH SMPS",
+        "CP CAT6 100 NEW",
+        "CP CAT6 305 CABLE LOOSE",
+        "CP CAT6 305 NEW",
+        "CP PT OUTDOOR CAMERA"
+    ];
+
+    const dlinkNames = [
+        "D LINK 2U MINI RACK",
+        "D LINK 2U RACK",
+        "D LINK 3+1 180MTRS STANDARD CABLE",
+        "D LINK 3+1 90 MTRS OUTDOOR CABLE",
+        "D LINK 3+1 90MTRS STANDARD CABLE",
+        "D LINK 4 PORT POE",
+        "D LINK 4CH SMPS",
+        "D LINK 4G ROUTER N300 WIFI",
+        "D LINK 4U BIG RACK",
+        "D LINK 4U MINI RACK (UN)",
+        "D LINK 5 PORT DESKTOP SWITCH",
+        "D LINK 6U RACK",
+        "D LINK 8 PORT DESKTOP SWITCH",
+        "D LINK 8CH SMPS",
+        "D LINK 8PORT POE",
+        "D LINK 9U RACK",
+        "D LINK CAT6 100 MTRS",
+        "D LINK CAT6 305MTR CABLE",
+        "D LINK CAT6 305MTR CABLE OUTDOOR",
+        "D LINK RJ 45 PINS (N)",
+        "D LINK SPIKE",
+        "D LINK TRAY RACK",
+        "D-LINK N300 ROUTER",
+        "DLINK BACK BOX",
+        "DLINK CAT6 NEWW",
+        "DLINK FACEPLATE DUAL",
+        "DLINK FACEPLATE SINGLE",
+        "DLINK KEYSTONE",
+        "DLINK PATCHCARD 1MTR",
+        "DLINK PATCHCARD 2MTR"
+    ];
+
+    const dahuaNames = [
+        "DAH  16CH 5MP DVR",
+        "DAH  2MP IP IR (SS) BULLET DH-IPC-HFW1230TL2",
+        "DAH  4MP IP COLOUR+ AUDIO 50MTR BULLET",
+        "DAH 16CH 2 MP DVR",
+        "DAH 16CH 2MP DVR 2SATA",
+        "DAH 16CH 4K DVR",
+        "DAH 16CH 4K NVR",
+        "DAH 16CH 4K NVR (N)",
+        "DAH 16CH 5MP DVR I3 SERIES",
+        "DAH 16CH NVR",
+        "DAH 16CH NVR 2 SATA DH-NVR-4216-4KS2/L",
+        "DAH 16CH NVR 2 SATA DH-NVR2216-4KS2",
+        "DAH 22'' INCH MONITOR",
+        "DAH 2MP (CS) IR  BULLET AUDIO 20 MTR",
+        "DAH 2MP BULLET 6MM 80 MTR",
+        "DAH 2MP COLOUR BULLET 20MTR  TYPE -2",
+        "DAH 2MP COLOUR DOME",
+        "DAH 2MP COLOUR+AUDIO BULLET (N) 20MTR",
+        "DAH 2MP COLOUR+AUDIO BULLET METAL BODY 20MTR",
+        "DAH 2MP COLOUR+AUDIO BULLET METAL BODY 40 MTR",
+        "DAH 2MP COLOUR+AUDIO DOME 20MTR (N)",
+        "DAH 2MP COLOUR+AUDIO DOME METALBODY 20MTR",
+        "DAH 2MP HERO 1 WIFI PT CAMERA",
+        "DAH 2MP IP (SS) COLOUR BULLET",
+        "DAH 2MP IP (SS) COLOUR DOME",
+        "DAH 2MP IP COLOUR BULLET -2",
+        "DAH 2MP IP COLOUR BULLET +AUDIO",
+        "DAH 2MP IP COLOUR DOME-2",
+        "DAH 2MP IP COLOUR+AUDIO DOME",
+        "DAH 2MP IP IR (SS) BULLET + AUDIO DH-IPC-HFW1230TL2-A",
+        "DAH 2MP IP IR (SS) DOME  DH-IPC-HDW1230T2",
+        "DAH 2MP IP IR (SS) DOME + AUDIO  DH-IPC-HDW1230T2-A",
+        "DAH 2MP IP IR 30MTR + MIC BULLET",
+        "DAH 2MP IP IR AUDIO BULLET 1240S1-A",
+        "DAH 2MP IP IR AUDIO DOME  1240T1-A",
+        "DAH 2MP IP IR DOME - 1230T1P-A-S4",
+        "DAH 2MP IP METAL BODY COLOUR +AUDIO BULLET  30MTR",
+        "DAH 2MP IP SD DOME 1249T1-AIL",
+        "DAH 2MP IR (CS) DOME AUDIO 20MTR",
+        "DAH 2MP IR (CS) DOME DH-HAC-T1A21P",
+        "DAH 2MP IR (SPS) METAL DOME 30 MTR",
+        "DAH 2MP IR BULLET",
+        "DAH 2MP IR BULLET HFW1220RP",
+        "DAH 2MP PTZ",
+        "DAH 2MP RP SERIES BULLET 20 MTR WDR MODEL",
+        "DAH 2MP SMART DUAL LIGHT BULLET",
+        "DAH 2MP SMART DUAL LIGHT DOME",
+        "DAH 2MP SP SERIES METAL BULLET 30MTR",
+        "DAH 32CH 2MP DVR",
+        "DAH 32CH 5MP DVR",
+        "DAH 32CH NVR 4K 4 STATA",
+        "DAH 32CH NVR DH-NVR-4232-4KS2/L 2 SATA",
+        "DAH 3MP WIFI PT",
+        "DAH 4 PORT POE",
+        "DAH 4CH 2.4MP DVR-I",
+        "DAH 4CH 4K NVR",
+        "DAH 4CH DVR 1080P V2 SERIES",
+        "DAH 4CH DVR 5 MP SUPPORT 1080P PLAYBACK",
+        "DAH 4CH NVR UPTO 6 MP SUPPORT",
+        "DAH 4MP HERO 1 WIFI PT CAMERA",
+        "DAH 4MP IP IR DOME 1431T1P-A",
+        "DAH 4MP IP SD BULLET 1449- AIL",
+        "DAH 4MP IP SD DOME 1449- AIL",
+        "DAH 4MP WEIZ COLOUR BULLET",
+        "DAH 5 PORT DESKTOP SWITCH",
+        "DAH 5MP BULLET COLOUR+AUDIO 20 MTR",
+        "DAH 5MP DOME COLOUR+AUDIO 20 MTR",
+        "DAH 5MP IR (CS) AUDIO DOME 20MTR",
+        "DAH 5MP IR (CS) BULLET 20MTR -  DH-HAC-B1A51P",
+        "DAH 5MP IR BULLET 80MTR + AUDIO",
+        "DAH 5MP IR BULLET DH-HAC-HFW1501CMP",
+        "DAH 8 PORT DEKTOP SWITCH",
+        "DAH 8CH 2MP DVR I SERIES 1080P",
+        "DAH 8CH 2MP V2",
+        "DAH 8CH 4K DVR",
+        "DAH 8CH 4K NVR",
+        "DAH 8CH DVR 5 MP SUPPORT 1080P PLAYBACK",
+        "DAH 8CH NVR UPTO 6 MP SUPPORT",
+        "DAH 8PORT POE GIGA",
+        "DAH IP 4G BULLET (DH-IPC-HFW1339DT1-4G-ST-IL)",
+        "DAH-2MP PTZ (SD6C3225GB-HNR)",
+        "DAH-2MP-IP-IR-(SS) 50MTR + AUDIO BULLET",
+        "DAH-2MP-IP-IR-(SS)80MTR BULLET + AUDIO",
+        "DAH-2MP-IP-IR-30MTR BULLET [DH-IPC-HFW1230S1P-S4]",
+        "DAH-IP IR DOME GOLD",
+        "DAHUA 4MP IP COLOUR  BULLET",
+        "DAHUA 4MP IP COLOUR  DOME",
+        "DAHUA 4MP IP COLOUR+AUDIO  BULLET",
+        "DAHUA 4MP IP COLOUR+MIC DOME",
+        "DAHUA 8 PORT POE",
+        "DHA 2MP IP SD BULLET1249- AIL",
+        "IMOU RANGER S2 3MP CAMERA"
+    ];
+
+    const hddNames = [
+        "1TB INTERNAL",
+        "1TB SEAGATE SKYHAWK",
+        "1TB SEGATE HDD",
+        "1TB SEGATE HDD - 2",
+        "1TB SEGATE HDD WD",
+        "1TB TOSHIBA",
+        "1TB TOSHIBA (S)",
+        "1TB WD PURPLE",
+        "2TB BLUE FEATHER",
+        "2TB SEAGATE SKYHAWK",
+        "2TB SEGATE HDD",
+        "2TB SEGATE HDD WD",
+        "2TB TOSHIBA",
+        "2TB WD PURPLE",
+        "3TB SEGATE HDD",
+        "4TB BLUE FEATHER",
+        "4TB SEAGATE SKYHAWK",
+        "4TB SEGATE HDD",
+        "4TB TOSHIBA",
+        "4TB WD PURPLE",
+        "4TB WD PURPLE(N)",
+        "500GB BLUE FEATHER",
+        "500GB SEGATE HDD",
+        "500GB SEGATE HDD WD",
+        "6TB HDD SEGATE",
+        "6TB SEAGATE SKYHAWK",
+        "6TB TOSHIBA",
+        "6TB WD PURPLE",
+        "8TB WD PURPLE",
+        "HARD DISK 500 GB [S]",
+        "HDD 500GB IMP",
+        "SEAGATE 2TB SKYHAWK (NEW)84717020",
+        "SEAGATE 8TB SKYHAWK (NEW)"
+    ];
+
+    const sdCardNames = [
+        "64GB CP-PLUS SD CARD",
+        "64GB HIFOCUS",
+        "64GB HP SD CARD",
+        "BRYT 64GB SD CARD",
+        "HIKSEMI 128GB SD CARD",
+        "HIKVISION 256GB SD CARD",
+        "HIKVISION 32GB SD CARD",
+        "HP 256GB SD CARD",
+        "KIOXIA 128GB",
+        "KIOXIA 128GB SD",
+        "KIOXIA 256GB SD",
+        "KIOXIA 64GB",
+        "KIOXIA 64GB SD"
+    ];
+
+    // Helper: list of SD CARDS image filenames (from assets/img/SD CARDS)
+    const sdCardImageFiles = [
+        "64GB CP-PLUS SD CARD.jpg",
+        "64GB HIFOCUS.jpg",
+        "64GB HP SD CARD.jpg",
+        "BRYT 64GB SD CARD.jpg",
+        "HIKSEMI 128GB SD CARD.jpg",
+        "HIKVISION 256GB SD CARD.jpg",
+        "HIKVISION 32GB SD CARD.jpg",
+        "HP 256GB SD CARD.jpg",
+        "KIOXIA 128GB SD.jpg",
+        "KIOXIA 128GB.jpg",
+        "KIOXIA 256GB SD.jpg",
+        "KIOXIA 64GB SD.jpg",
+        "KIOXIA 64GB.jpg"
+    ];
+
+    const findSdCardImage = (productName) => {
+        const pn = _normalize(productName);
+        for (const f of sdCardImageFiles) {
+            const base = f.replace(/\.[^.]+$/, "");
+            const fn = _normalize(base);
+            if (!fn) continue;
+            if (fn.includes(pn) || pn.includes(fn)) {
+                return `assets/img/SD CARDS/${encodeURIComponent(f)}`;
+            }
+        }
+
+        try {
+            const cleaned = (productName || "").toString().trim();
+            if (!cleaned) return null;
+            const exts = ['jpg', 'jpeg', 'png', 'webp'];
+            for (const ext of exts) {
+                const candidate = `${cleaned}.${ext}`;
+                if (sdCardImageFiles.includes(candidate)) return `assets/img/SD CARDS/${encodeURIComponent(candidate)}`;
+            }
+
+            const safe = cleaned.replace(/[\\/:*?"<>|]/g, '');
+            for (const ext of exts) {
+                const candidate = `${safe}.${ext}`;
+                if (sdCardImageFiles.includes(candidate)) return `assets/img/SD CARDS/${encodeURIComponent(candidate)}`;
+            }
+
+            return `assets/img/SD CARDS/${encodeURIComponent(cleaned + '.jpg')}`;
+        } catch (e) {
+            return null;
+        }
+    };
+
+    const secureyeNames = [
+        "SECUREEYE 4G LINKAGE",
+        "SECUREYE  4 PORT POE (4+2 10/100)",
+        "SECUREYE  8 PORT POE (8+2 10/100)",
+        "SECUREYE 128GB",
+        "SECUREYE 16 PORT POE+2UP GIGA+1SFC",
+        "SECUREYE 16PORT POE16G+2G+1SFP",
+        "SECUREYE 17 INCH  MONITOR",
+        "SECUREYE 19 INCH  MONITOR",
+        "SECUREYE 4 PORT POE (4+2 10/100 +1000M SFP)",
+        "SECUREYE 4G BULLET",
+        "SECUREYE 4G DUAL LENS PT",
+        "SECUREYE 4G SINGLE LENS",
+        "SECUREYE 64GB",
+        "SECUREYE 8 PORT POE (8+2 10/100 +1000M SFP)",
+        "SECUREYE 8+2 GIGA POE",
+        "SECUREYE 8PORT GIGA 8+2+2SF",
+        "SECUREYE HDMI TO VGA",
+        "SECUREYE MEDIA CONVERTER 10/100 PAIR",
+        "SECUREYE MEDIA CONVERTER 10/100/1000 GIGA (PAIR T /R)",
+        "SECUREYE POE 16FULLGIGA+2GIGA+1SFC",
+        "SECUREYE POE INJECTOR",
+        "SECUREYE SOLAR LINKAGE",
+        "SECUREYE USB ADAPTER",
+        "SECUREYE VGA TO HDMI",
+        "SECUREYE WIFI DUAL LENS PT"
+    ];
+
+    const securusNames = [
+        "AHUJA NE 630VG MIC",
+        "JACK CABEL",
+        "SECURUS 6CH NVR",
+        "SECURUS 16CH NVR",
+        "SECURUS 16CH NVR 2SATA",
+        "SECURUS 2.4MP COLOUR+AUDIO DOME",
+        "SECURUS 2MP COLOUR+AUDIO BULLET",
+        "SECURUS 32CH NVR (SS-N8032RV-H2-M5)",
+        "SECURUS 3MP 5G PT(SS-20PTXG-CSUTL-M3",
+        "SECURUS 3MP IP  4 CABEL",
+        "SECURUS 3MP IP C+2WAY DOME",
+        "SECURUS 3MP IP C+A BULLET",
+        "SECURUS 3MP IP C+A DOME",
+        "SECURUS 5MP IP BULLET",
+        "SECURUS 5MP IP BULLETS",
+        "SECURUS 5MP IP DOME",
+        "SECURUS 8CH DVR",
+        "SECURUS 9CH NVR",
+        "SECURUS INDOOR SPEAKER",
+        "SECURUS PTZ 5MP"
+    ];
+
+    const tplinkNames = [
+        "TP 16+2UP GIGA(SL1218MP)",
+        "TP 4+2 POE 10/100 (LS106LP)",
+        "TP 4+2 PORT POE 10/100 (POWER BUDGET SF1006P)",
+        "TP 4PORT GIGA POE + 1 DESKTOP GIGA (LS105GP)",
+        "TP 4PORT POE GIGA + 4PORT DESKTOP GIGA",
+        "TP 8+1 PORT 10/100 POE (LS109P)",
+        "TP 8+2 PORT POE 10/100 (LS-110P)",
+        "TP 8+2 SFP FULL GIGA POE",
+        "TP 8PORT 10/100 (4PORT POE + 4PORT UPLINK)",
+        "TP 8PORT 10/100+2 PORT UPLINK GIGA (POWER BUDGET 1311MP)",
+        "TP 8PORT FULL GIGA 8+1+1 SFP",
+        "TP 8PORT POE +2 UPLINK GIGA (LS1210P)",
+        "TP ACCESS POINT CPE210 300MBPS",
+        "TP ACCESS POINT CPE5105GHZ 300MBPS",
+        "TP ACCESS POINT SEALING EAP225",
+        "TP ACCESS POINT SELING EAP115",
+        "TP LINK 16 PORT GIGA DESKTOP SWITCH",
+        "TP LINK 16CH NVR",
+        "TP LINK 16PORT GIGA POE (MODEL NO.TL-SG1218MPE)",
+        "TP LINK 16PORT POE SWITCH",
+        "TP LINK 18PORT GIGABITE RACKMOUNT WITH 16POE",
+        "TP LINK 24PORT GIGA DESKTOP SWITCH",
+        "TP LINK 24PORT GIGA POE (MODEL NOTL-SG1428PE)",
+        "TP LINK 2MP IP BULLET",
+        "TP LINK 2MP IP DOME",
+        "TP LINK 32CH NVR",
+        "TP LINK 3MP IP  COLOUR+AUDIO DOME",
+        "TP LINK 3MP IP COLOUR+AUDIO BULLET",
+        "TP LINK 4CH NVR",
+        "TP LINK 4MP IP  COLOUR+AUDIO BULLET",
+        "TP LINK 4MP IP  COLOUR+AUDIO DOME",
+        "TP LINK 4MP IP COLOUR PT 3X",
+        "TP LINK 5MP IP COLOUR+AUDIO BULLET",
+        "TP LINK 8 PORT GIGA SWITCH (TL-SG108E)",
+        "TP LINK 8CH NVR",
+        "TP LINK AC1200",
+        "TP LINK ACCESS POINT  AX1800",
+        "TP LINK GIGABIT VPN GATE WAY",
+        "TP LINK POE ADAPTER",
+        "TP LINL CEILING MOUNT ACCESS POINT300MBPS",
+        "TP-LINK 16PORT GIGA SWITCH [TL-SG116E]",
+        "TPL N300 ROUTER",
+        "TPLINK SWITCH 6PORT 10/100 LS 106LP-IN"
+    ];
+
+    const trueviewNames = [
+        "4G TRUE VIEW ROUTER -1",
+        "TRUEVIEU WIFI 3MP SMART  MINI PTZ  - T18135",
+        "TRUEVIEW 128GB SD CARD",
+        "TRUEVIEW 3MP 4G BULLET (T18175-A)",
+        "TRUEVIEW 3MP 4G DOME (T18185-A)",
+        "TRUEVIEW 3MP WIFI BULLET T18238",
+        "TRUEVIEW 3MP WIFI DOME (T18237)",
+        "TRUEVIEW 4G 3MP SINGLE LENS PTZ - T18120",
+        "TRUEVIEW 4G 4MP DUAL LENS - T18155",
+        "TRUEVIEW 4G BULLET CAMERA - 18175",
+        "TRUEVIEW 4G BULLET CAMERA 3MP - T18075",
+        "TRUEVIEW 4G DOME CAMERA 3MP - T18121",
+        "TRUEVIEW 4G LINKAGE PT CAMERA - T18178",
+        "TRUEVIEW 4G ROBOT PT CAMERA 3MP - T18150",
+        "TRUEVIEW 4G ROUTER - T18168-AE",
+        "TRUEVIEW 4G SMART LINKAGE PT CAMERA - T18201-A",
+        "TRUEVIEW 4G SOLAR DUAL LENS MINI PT 10X ZOOM - T18164-AE",
+        "TRUEVIEW 4G SOLAR LINKAGE (T18200-A)",
+        "TRUEVIEW 4G SOLAR MINI PT CAMERA - T18149",
+        "TRUEVIEW 4MP WIFI SOLAR PT  T-18196-A",
+        "TRUEVIEW WIFI  3MP BULLET CAMERA -T18077",
+        "TRUEVIEW WIFI 2+2MP LINKAGE(T18213)",
+        "TRUEVIEW WIFI DOME CAMERA 3MP - T18140-BT",
+        "TRUEVIEW WIFI DUAL LENS - T18156",
+        "TRUEVIEW WIFI ROBOT PAN TILT 5MP - T18158-AF",
+        "TRUEVIEW WIFI ROBOT PT CAMERA 2MP - T18166-AE",
+        "TRUEVIEW WIFI ROBOT PT CAMERA 3MP - T18161"
+    ];
+
+    const zebNames = [
+        "TELEVISION 32P1S",
+        "ZEB 32\" TV",
+        "ZEB 4PORT POES",
+        "ZEB 6PORT POES",
+        "ZEBRONICS 16CH SMPS",
+        "ZEBRONICS 3+1  90 MTRS INDOOR CABLE",
+        "ZEBRONICS 4CH SMPS",
+        "ZEBRONICS 8CH SMPS",
+        "ZEBRONICS UPS",
+        "ZEBSTER 17 (ES17/VS17)",
+        "ZEB 9PORT POES",
+        "ZEBSTER 15.1 (VS16/ES16)"
+    ];
+
+    const yadonNames = [
+        "SOLAR PANEL",
+        "WE SECURE 4G SOLAR  10X",
+        "WE-H4LC-5DLMB7 DARK",
+        "WE-HF2LC-4PD6 FISH",
+        "YADON 4PORT POE SWITCH WITH BACKUP",
+        "YADON 8PORT POE SWITCH WITH BACKUP"
+    ];
+
+    // Helper: list of ANWIZ image filenames (from assets/img/ANWIZ 2/ANWIZ 2)
+    const anwizImageFiles = [
+        "2U MINI ANWIZ.jpg",
+        "4+2+1 FULL GIGA .jpg",
+        "4G SOLAR 10X OKAM.jpg",
+        "4U MINI ANWIZ.jpg",
+        "5102CS5iRGL._SX522_.jpg",
+        "6+6 WIFI OUT DOOR.jpg",
+        "8+2+2 FULL GIGA.jpg",
+        "A2 3+1 GOLD CABLE.jpg",
+        "AN-10X4GDULSOL-OKAM.jpg",
+        "AN-AISNGLNS-PTZ.jpg",
+        "AN10X4GDULSOL-OKAM.jpg",
+        "ANWIZ 10CH NVR 4K.jpg",
+        "ANWIZ 12V5AMPS.jpg",
+        "ANWIZ 16CH SMPS.jpg",
+        "ANWIZ 3+1 BLAK COPPER CABEL.jpg",
+        "ANWIZ 3+1 BLAK COPPER PREMIUM CABEL.jpg",
+        "ANWIZ 3+1 INDOOR COPPER CABEL.jpg",
+        "ANWIZ 3+1BLACK PREMIUM CABEL.jpg",
+        "ANWIZ 4CH SMPS.jpg",
+        "ANWIZ 4PORT POE.jpg",
+        "ANWIZ 5MP PTZ.jpg",
+        "ANWIZ 6MP IP GOLD (AN-PROM-6MB4).jpg",
+        "ANWIZ 6MP IP GOLD AN-PROM-6MD4)DOME.jpg",
+        "ANWIZ 8CH SMPS.jpg",
+        "ANWIZ 8MP DOME.jpg",
+        "ANWIZ 8MP+8MM LENS.jpg",
+        "ANWIZ 8PORT POE FULL GIGA 1SFE.jpg",
+        "ANWIZ 8PORT POE.jpg",
+        "ANWIZ CAT6 BLACK CABEL.jpg",
+        "ANWIZ CAT6 GREY CABEL.jpg",
+        "ANWIZ CAT6 YELLOW COPPER CABEL.jpg",
+        "ANWIZ DARK HUNTER DOME CAMERA.jpg",
+        "ANWIZ FISHEYE B7.jpg",
+        "ANWIZ FISHEYE- D7.jpg",
+        "ANWIZ GOLD 3+1 OUT DOOR CABEL.jpg",
+        "ANWIZ VANDAL B6.jpg",
+        "ANWIZ+XM4MP FACE.jpg",
+        "ANWIZ-ALM5MB2.jpg",
+        "ANWIZ-ALM5MD2.jpg",
+        "BNC BLACK.jpg",
+        "CAT6 C.jpg",
+        "DC BLACK.jpg",
+        "POE SWITCH 4&8 PORT COMBO.jpg",
+        "SAMPLE CAMERAS.jpg",
+        "SECURUS 4CH DVR.jpg",
+        "VOLTAIC POE BOX.jpg"
+    ];
+
+    const findAnwizImage = (productName) => {
+        const pn = _normalize(productName);
+        for (const f of anwizImageFiles) {
+            const base = f.replace(/\.[^.]+$/, "");
+            const fn = _normalize(base);
+            if (!fn) continue;
+            if (fn.includes(pn) || pn.includes(fn)) {
+                return `assets/img/ANWIZ 2/ANWIZ 2/${encodeURIComponent(f)}`;
+            }
+        }
+
+        try {
+            const cleaned = (productName || "").toString().trim();
+            if (!cleaned) return null;
+            const exts = ['jpg', 'jpeg', 'png', 'webp'];
+            for (const ext of exts) {
+                const candidate = `${cleaned}.${ext}`;
+                if (anwizImageFiles.includes(candidate)) return `assets/img/ANWIZ 2/ANWIZ 2/${encodeURIComponent(candidate)}`;
+            }
+
+            const safe = cleaned.replace(/[\\/:*?"<>|]/g, '');
+            for (const ext of exts) {
+                const candidate = `${safe}.${ext}`;
+                if (anwizImageFiles.includes(candidate)) return `assets/img/ANWIZ 2/ANWIZ 2/${encodeURIComponent(candidate)}`;
+            }
+
+            return `assets/img/ANWIZ 2/ANWIZ 2/${encodeURIComponent(cleaned + '.jpg')}`;
+        } catch (e) {
+            return null;
+        }
+    };
+
+    // RACK category product names
+    const rackNames = [
+        "MAXXION 1U PLASTIC RACK",
+        "2U MINI RACK - 450 (N)",
+        "MAXXION OUTDOOR PVC POE RACK (MX-800D)",
+        "MAXXION OUTDOOR PVC POE RACK (MX-800E)",
+        "MAXXION OUTDOOR PVC POE RACK (MX-800F)",
+        "OUTDOOR RACK (H TYPE)",
+        "CP 2U RACK",
+        "CP 4U RACK",
+        "D LINK 2U MINI RACK",
+        "D LINK 2U RACK",
+        "D LINK 4U BIG RACK",
+        "D LINK 4U MINI RACK (UN)",
+        "D LINK 6U RACK",
+        "D LINK 9U RACK",
+        "D LINK TRAY RACK",
+        "TP LINK 18PORT GIGABITE RACKMOUNT WITH 16POE"
+    ];
+    
+    // Helper: list of D-LINK image filenames (from assets/img/d-link)
+    const dlinkImageFiles = [
+        "D LINK 16 PORT POE SWITCH.jpg",
+        "D LINK 2U MINI RACK.jpg",
+        "D LINK 2U RACK.jpg",
+        "D LINK 3+1 180MTRS STANDARD CABLE.jpg",
+        "D LINK 3+1 90 MTRS OUTDOOR CABLE.jpg",
+        "D LINK 3+1 90MTRS STANDARD CABLE.jpg",
+        "D LINK 4 PORT POE.jpg",
+        "D LINK 4CH SMPS.jpg",
+        "D LINK 4G ROUTER N300 WIFI.jpg",
+        "D LINK 4U BIG RACK.jpg",
+        "D LINK 4U MINI RACK (UN).jpg",
+        "D LINK 5 PORT DESKTOP SWITCH.jpg",
+        "D LINK 6U RACK.jpg",
+        "D LINK 8 PORT DESKTOP SWITCH.jpg",
+        "D LINK 8CH SMPS.jpg",
+        "D LINK 8PORT POE.jpg",
+        "D LINK 9U RACK.jpg",
+        "D LINK CAT6 100 MTRS.jpg",
+        "D LINK CAT6 305MTR CABLE.jpg",
+        "D LINK CAT6 305MTR CABLE OUTDOOR.jpg",
+        "D LINK RJ 45 PINS (N).jpg",
+        "D LINK SPIKE.jpg",
+        "D LINK TRAY RACK.jpg",
+        "D-LINK N300 ROUTER.jpg",
+        "DLINK BACK BOX.jpg",
+        "DLINK CAT6 NEWW.jpg",
+        "DLINK FACEPLATE DUAL.jpg",
+        "DLINK FACEPLATE SINGLE.jpg",
+        "DLINK KEYSTONE.jpg",
+        "DLINK PATCHCARD 1MTR.jpg",
+        "DLINK PATCHCARD 2MTR.jpg"
+    ];
+
+    const findDlinkImage = (productName) => {
+        const pn = _normalize(productName);
+        for (const f of dlinkImageFiles) {
+            const base = f.replace(/\.[^.]+$/, "");
+            const fn = _normalize(base);
+            if (!fn) continue;
+            if (fn.includes(pn) || pn.includes(fn)) {
+                return `assets/img/d-link/${encodeURIComponent(f)}`;
+            }
+        }
+
+        try {
+            const cleaned = (productName || "").toString().trim();
+            if (!cleaned) return null;
+            const exts = ['jpg', 'jpeg', 'png', 'webp'];
+            for (const ext of exts) {
+                const candidate = `${cleaned}.${ext}`;
+                if (dlinkImageFiles.includes(candidate)) return `assets/img/d-link/${encodeURIComponent(candidate)}`;
+            }
+
+            const safe = cleaned.replace(/[\\/:*?"<>|]/g, '');
+            for (const ext of exts) {
+                const candidate = `${safe}.${ext}`;
+                if (dlinkImageFiles.includes(candidate)) return `assets/img/d-link/${encodeURIComponent(candidate)}`;
+            }
+
+            return `assets/img/d-link/${encodeURIComponent(cleaned + '.jpg')}`;
+        } catch (e) {
+            return null;
+        }
+    };
+
+    // Helper: list of DAHUA image filenames (from assets/img/dahua)
+    const dahuaImageFiles = [
+        // add filenames placed in assets/img/dahua here, example:
+        // "DAHUA CAMERA 2MP.jpg",
+    ];
+
+    const findDahuaImage = (productName) => {
+        const pn = _normalize(productName);
+        for (const f of dahuaImageFiles) {
+            const base = f.replace(/\.[^.]+$/, "");
+            const fn = _normalize(base);
+            if (!fn) continue;
+            if (fn.includes(pn) || pn.includes(fn)) {
+                return `assets/img/dahua/${encodeURIComponent(f)}`;
+            }
+        }
+
+        try {
+            const cleaned = (productName || "").toString().trim();
+            if (!cleaned) return null;
+            const exts = ['jpg', 'jpeg', 'png', 'webp'];
+            for (const ext of exts) {
+                const candidate = `${cleaned}.${ext}`;
+                if (dahuaImageFiles.includes(candidate)) return `assets/img/dahua/${encodeURIComponent(candidate)}`;
+            }
+
+            const safe = cleaned.replace(/[\\/:*?"<>|]/g, '');
+            for (const ext of exts) {
+                const candidate = `${safe}.${ext}`;
+                if (dahuaImageFiles.includes(candidate)) return `assets/img/dahua/${encodeURIComponent(candidate)}`;
+            }
+
+            return `assets/img/dahua/${encodeURIComponent(cleaned + '.jpg')}`;
+        } catch (e) {
+            return null;
+        }
+    };
+
+    // Helper: list of ERD image filenames (from assets/img/ERD)
+    const erdImageFiles = [
+        "ERD 12V-3AMP PLUGIN.ipg",
+        "ERD 12V-3AMP PLUGIN.jpg"
+    ];
+
+    const findErdImage = (productName) => {
+        const pn = _normalize(productName);
+        for (const f of erdImageFiles) {
+            const base = f.replace(/\.[^.]+$/, "");
+            const fn = _normalize(base);
+            if (!fn) continue;
+            if (fn.includes(pn) || pn.includes(fn)) {
+                return `assets/img/ERD/${encodeURIComponent(f)}`;
+            }
+        }
+
+        try {
+            const cleaned = (productName || "").toString().trim();
+            if (!cleaned) return null;
+            const exts = ['jpg', 'jpeg', 'png', 'webp', 'ipg'];
+            for (const ext of exts) {
+                const candidate = `${cleaned}.${ext}`;
+                if (erdImageFiles.includes(candidate)) return `assets/img/ERD/${encodeURIComponent(candidate)}`;
+            }
+
+            const safe = cleaned.replace(/[\\/:*?"<>|]/g, '');
+            for (const ext of exts) {
+                const candidate = `${safe}.${ext}`;
+                if (erdImageFiles.includes(candidate)) return `assets/img/ERD/${encodeURIComponent(candidate)}`;
+            }
+
+            return `assets/img/ERD/${encodeURIComponent(cleaned + '.jpg')}`;
+        } catch (e) {
+            return null;
+        }
+    };
+
+    // Helper: list of EZVIZ image filenames (from assets/img/EZVIZ)
+    const ezvizImageFiles = [
+        // populate with filenames from assets/img/EZVIZ if available
+    ];
+
+    const findEzvizImage = (productName) => {
+        const pn = _normalize(productName);
+        for (const f of ezvizImageFiles) {
+            const base = f.replace(/\.[^.]+$/, "");
+            const fn = _normalize(base);
+            if (!fn) continue;
+            if (fn.includes(pn) || pn.includes(fn)) {
+                return `assets/img/EZVIZ/${encodeURIComponent(f)}`;
+            }
+        }
+
+        try {
+            const cleaned = (productName || "").toString().trim();
+            if (!cleaned) return null;
+            const exts = ['jpg', 'jpeg', 'png', 'webp'];
+            for (const ext of exts) {
+                const candidate = `${cleaned}.${ext}`;
+                if (ezvizImageFiles.includes(candidate)) return `assets/img/EZVIZ/${encodeURIComponent(candidate)}`;
+            }
+
+            const safe = cleaned.replace(/[\\/:*?"<>|]/g, '');
+            for (const ext of exts) {
+                const candidate = `${safe}.${ext}`;
+                if (ezvizImageFiles.includes(candidate)) return `assets/img/EZVIZ/${encodeURIComponent(candidate)}`;
+            }
+
+            return `assets/img/EZVIZ/${encodeURIComponent(cleaned + '.jpg')}`;
+        } catch (e) {
+            return null;
+        }
+    };
+
+    // Helper: list of FINOLEX image filenames (from assets/img/FINOLEX)
+    const finolexImageFiles = [
+        // populate with filenames from assets/img/FINOLEX if available
+    ];
+
+    const findFinolexImage = (productName) => {
+        const pn = _normalize(productName);
+        for (const f of finolexImageFiles) {
+            const base = f.replace(/\.[^.]+$/, "");
+            const fn = _normalize(base);
+            if (!fn) continue;
+            if (fn.includes(pn) || pn.includes(fn)) {
+                return `assets/img/FINOLEX/${encodeURIComponent(f)}`;
+            }
+        }
+
+        try {
+            const cleaned = (productName || "").toString().trim();
+            if (!cleaned) return null;
+            const exts = ['jpg', 'jpeg', 'png', 'webp'];
+            for (const ext of exts) {
+                const candidate = `${cleaned}.${ext}`;
+                if (finolexImageFiles.includes(candidate)) return `assets/img/FINOLEX/${encodeURIComponent(candidate)}`;
+            }
+
+            const safe = cleaned.replace(/[\\/:*?"<>|]/g, '');
+            for (const ext of exts) {
+                const candidate = `${safe}.${ext}`;
+                if (finolexImageFiles.includes(candidate)) return `assets/img/FINOLEX/${encodeURIComponent(candidate)}`;
+            }
+
+            return `assets/img/FINOLEX/${encodeURIComponent(cleaned + '.jpg')}`;
+        } catch (e) {
+            return null;
+        }
+    };
+
+    // Helper: list of MASTEL image filenames (from assets/img/MASTEL)
+    const mastelImageFiles = [
+        // populate with filenames from assets/img/MASTEL if available
+    ];
+
+    const findMastelImage = (productName) => {
+        const pn = _normalize(productName);
+        for (const f of mastelImageFiles) {
+            const base = f.replace(/\.[^.]+$/, "");
+            const fn = _normalize(base);
+            if (!fn) continue;
+            if (fn.includes(pn) || pn.includes(fn)) {
+                return `assets/img/MASTEL/${encodeURIComponent(f)}`;
+            }
+        }
+
+        try {
+            const cleaned = (productName || "").toString().trim();
+            if (!cleaned) return null;
+            const exts = ['jpg', 'jpeg', 'png', 'webp'];
+            for (const ext of exts) {
+                const candidate = `${cleaned}.${ext}`;
+                if (mastelImageFiles.includes(candidate)) return `assets/img/MASTEL/${encodeURIComponent(candidate)}`;
+            }
+
+            const safe = cleaned.replace(/[\\/:*?"<>|]/g, '');
+            for (const ext of exts) {
+                const candidate = `${safe}.${ext}`;
+                if (mastelImageFiles.includes(candidate)) return `assets/img/MASTEL/${encodeURIComponent(candidate)}`;
+            }
+
+            return `assets/img/MASTEL/${encodeURIComponent(cleaned + '.jpg')}`;
+        } catch (e) {
+            return null;
+        }
+    };
+
+    // Helper: list of HI FOCUS image filenames (from assets/img/HI FOCUS)
+    const hiFocusImageFiles = [
+        // populate with filenames from assets/img/HI FOCUS if available
+    ];
+
+    const findHiFocusImage = (productName) => {
+        const pn = _normalize(productName);
+        for (const f of hiFocusImageFiles) {
+            const base = f.replace(/\.[^.]+$/, "");
+            const fn = _normalize(base);
+            if (!fn) continue;
+            if (fn.includes(pn) || pn.includes(fn)) {
+                return `assets/img/HI FOCUS/${encodeURIComponent(f)}`;
+            }
+        }
+
+        try {
+            const cleaned = (productName || "").toString().trim();
+            if (!cleaned) return null;
+            const exts = ['jpg', 'jpeg', 'png', 'webp'];
+            for (const ext of exts) {
+                const candidate = `${cleaned}.${ext}`;
+                if (hiFocusImageFiles.includes(candidate)) return `assets/img/HI FOCUS/${encodeURIComponent(candidate)}`;
+            }
+
+            const safe = cleaned.replace(/[\\/:*?"<>|]/g, '');
+            for (const ext of exts) {
+                const candidate = `${safe}.${ext}`;
+                if (hiFocusImageFiles.includes(candidate)) return `assets/img/HI FOCUS/${encodeURIComponent(candidate)}`;
+            }
+
+            return `assets/img/HI FOCUS/${encodeURIComponent(cleaned + '.jpg')}`;
+        } catch (e) {
+            return null;
+        }
+    };
+
+    // Helper: list of IMOU image filenames (from assets/img/IMOU)
+    const imouImageFiles = [
+        // populate with filenames from assets/img/IMOU if available
+    ];
+
+    const findImouImage = (productName) => {
+        const pn = _normalize(productName);
+        for (const f of imouImageFiles) {
+            const base = f.replace(/\.[^.]+$/, "");
+            const fn = _normalize(base);
+            if (!fn) continue;
+            if (fn.includes(pn) || pn.includes(fn)) {
+                return `assets/img/IMOU/${encodeURIComponent(f)}`;
+            }
+        }
+
+        try {
+            const cleaned = (productName || "").toString().trim();
+            if (!cleaned) return null;
+            const exts = ['jpg', 'jpeg', 'png', 'webp'];
+            for (const ext of exts) {
+                const candidate = `${cleaned}.${ext}`;
+                if (imouImageFiles.includes(candidate)) return `assets/img/IMOU/${encodeURIComponent(candidate)}`;
+            }
+
+            const safe = cleaned.replace(/[\\/:*?"<>|]/g, '');
+            for (const ext of exts) {
+                const candidate = `${safe}.${ext}`;
+                if (imouImageFiles.includes(candidate)) return `assets/img/IMOU/${encodeURIComponent(candidate)}`;
+            }
+
+            return `assets/img/IMOU/${encodeURIComponent(cleaned + '.jpg')}`;
+        } catch (e) {
+            return null;
+        }
+    };
+
+    // Helper: list of MAXXION image filenames (from assets/img/MAXXION)
+    const maxxionImageFiles = [
+        // populate with filenames from assets/img/MAXXION if available
+    ];
+
+    const findMaxxionImage = (productName) => {
+        const pn = _normalize(productName);
+        for (const f of maxxionImageFiles) {
+            const base = f.replace(/\.[^.]+$/, "");
+            const fn = _normalize(base);
+            if (!fn) continue;
+            if (fn.includes(pn) || pn.includes(fn)) {
+                return `assets/img/MAXXION/${encodeURIComponent(f)}`;
+            }
+        }
+
+        try {
+            const cleaned = (productName || "").toString().trim();
+            if (!cleaned) return null;
+            const exts = ['jpg', 'jpeg', 'png', 'webp'];
+            for (const ext of exts) {
+                const candidate = `${cleaned}.${ext}`;
+                if (maxxionImageFiles.includes(candidate)) return `assets/img/MAXXION/${encodeURIComponent(candidate)}`;
+            }
+
+            const safe = cleaned.replace(/[\\/:*?"<>|]/g, '');
+            for (const ext of exts) {
+                const candidate = `${safe}.${ext}`;
+                if (maxxionImageFiles.includes(candidate)) return `assets/img/MAXXION/${encodeURIComponent(candidate)}`;
+            }
+
+            return `assets/img/MAXXION/${encodeURIComponent(cleaned + '.jpg')}`;
+        } catch (e) {
+            return null;
+        }
+    };
+
+    let products = [
+        ...accessoryNames.map((name, index) => ({
+            id: index + 1,
+            name,
+            image: findAccessoryImage(name),
+            category: "ACCESSORIES",
+            isNew: true,
+            inStock: true,
+            originalIndex: index
+        })),
+        ...anwizNames.map((name, index) => ({
+            id: accessoryNames.length + index + 1,
+            name,
+            image: findAnwizImage(name),
+            category: "ANWIZ",
+            isNew: true,
+            inStock: true,
+            originalIndex: accessoryNames.length + index
+        })),
+        ...cableNames.map((name, index) => ({
+            id: accessoryNames.length + anwizNames.length + index + 1,
+            name,
+            category: "CABLES",
+            isNew: true,
+            inStock: true,
+            originalIndex: accessoryNames.length + anwizNames.length + index
+        })),
+        ...cpPlusNames.map((name, index) => ({
+            id: accessoryNames.length + anwizNames.length + cableNames.length + index + 1,
+            name,
+            category: "CP PLUS",
+            isNew: true,
+            inStock: true,
+            originalIndex: accessoryNames.length + anwizNames.length + cableNames.length + index
+        })),
+        ...dlinkNames.map((name, index) => ({
+            id: accessoryNames.length + anwizNames.length + cableNames.length + cpPlusNames.length + index + 1,
+            name,
+            image: findDlinkImage(name),
+            category: "D-LINK",
+            isNew: true,
+            inStock: true,
+            originalIndex: accessoryNames.length + anwizNames.length + cableNames.length + cpPlusNames.length + index
+        })),
+        ...dahuaNames.map((name, index) => ({
+            id: accessoryNames.length + anwizNames.length + cableNames.length + cpPlusNames.length + dlinkNames.length + index + 1,
+            name,
+            image: findDahuaImage(name),
+            category: "DAHUA",
+            isNew: true,
+            inStock: true,
+            originalIndex: accessoryNames.length + anwizNames.length + cableNames.length + cpPlusNames.length + dlinkNames.length + index
+        })),
+        ...erdNames.map((name, index) => ({
+            id: accessoryNames.length + anwizNames.length + cableNames.length + cpPlusNames.length + dlinkNames.length + dahuaNames.length + index + 1,
+            name,
+            image: findErdImage(name),
+            category: "ERD",
+            isNew: true,
+            inStock: true,
+            originalIndex: accessoryNames.length + anwizNames.length + cableNames.length + cpPlusNames.length + dlinkNames.length + dahuaNames.length + index
+        })),
+        ...ezvizNames.map((name, index) => ({
+            id: accessoryNames.length + anwizNames.length + cableNames.length + cpPlusNames.length + dlinkNames.length + dahuaNames.length + erdNames.length + index + 1,
+            name,
+            image: findEzvizImage(name),
+            category: "EZVIZ",
+            isNew: true,
+            inStock: true,
+            originalIndex: accessoryNames.length + anwizNames.length + cableNames.length + cpPlusNames.length + dlinkNames.length + dahuaNames.length + erdNames.length + index
+        })),
+        ...finolexNames.map((name, index) => ({
+            id: accessoryNames.length + anwizNames.length + cableNames.length + cpPlusNames.length + dlinkNames.length + dahuaNames.length + erdNames.length + ezvizNames.length + index + 1,
+            name,
+            image: findFinolexImage(name),
+            category: "FINOLEX",
+            isNew: true,
+            inStock: true,
+            originalIndex: accessoryNames.length + anwizNames.length + cableNames.length + cpPlusNames.length + dlinkNames.length + dahuaNames.length + erdNames.length + ezvizNames.length + index
+        })),
+        ...hiFocusNames.map((name, index) => ({
+            id: accessoryNames.length + anwizNames.length + cableNames.length + cpPlusNames.length + dlinkNames.length + dahuaNames.length + erdNames.length + ezvizNames.length + finolexNames.length + index + 1,
+            name,
+            image: findHiFocusImage(name),
+            category: "HI FOCUS",
+            isNew: true,
+            inStock: true,
+            originalIndex: accessoryNames.length + anwizNames.length + cableNames.length + cpPlusNames.length + dlinkNames.length + dahuaNames.length + erdNames.length + ezvizNames.length + finolexNames.length + index
+        })),
+        ...hikvisionNames.map((name, index) => ({
+            id: accessoryNames.length + anwizNames.length + cableNames.length + cpPlusNames.length + dlinkNames.length + dahuaNames.length + erdNames.length + ezvizNames.length + finolexNames.length + hiFocusNames.length + index + 1,
+            name,
+            image: findHikvisionImage(name),
+            category: "HIKVISION",
+            isNew: true,
+            inStock: true,
+            originalIndex: accessoryNames.length + anwizNames.length + cableNames.length + cpPlusNames.length + dlinkNames.length + dahuaNames.length + erdNames.length + ezvizNames.length + finolexNames.length + hiFocusNames.length + index
+        })),
+        ...imouNames.map((name, index) => ({
+            id: accessoryNames.length + anwizNames.length + cableNames.length + cpPlusNames.length + dlinkNames.length + dahuaNames.length + erdNames.length + ezvizNames.length + finolexNames.length + hiFocusNames.length + hikvisionNames.length + index + 1,
+            name,
+            image: findImouImage(name),
+            category: "IMOU",
+            isNew: true,
+            inStock: true,
+            originalIndex: accessoryNames.length + anwizNames.length + cableNames.length + cpPlusNames.length + dlinkNames.length + dahuaNames.length + erdNames.length + ezvizNames.length + finolexNames.length + hiFocusNames.length + hikvisionNames.length + index
+        })),
+        ...mastelNames.map((name, index) => ({
+            id: accessoryNames.length + anwizNames.length + cableNames.length + cpPlusNames.length + dlinkNames.length + dahuaNames.length + erdNames.length + ezvizNames.length + finolexNames.length + hiFocusNames.length + hikvisionNames.length + imouNames.length + index + 1,
+            name,
+            image: findMastelImage(name),
+            category: "MASTEL",
+            isNew: true,
+            inStock: true,
+            originalIndex: accessoryNames.length + anwizNames.length + cableNames.length + cpPlusNames.length + dlinkNames.length + dahuaNames.length + erdNames.length + ezvizNames.length + finolexNames.length + hiFocusNames.length + hikvisionNames.length + imouNames.length + index
+        })),
+        ...maxxionNames.map((name, index) => ({
+            id: accessoryNames.length + anwizNames.length + cableNames.length + cpPlusNames.length + dlinkNames.length + dahuaNames.length + erdNames.length + ezvizNames.length + finolexNames.length + hiFocusNames.length + hikvisionNames.length + imouNames.length + mastelNames.length + index + 1,
+            name,
+            image: findMaxxionImage(name),
+            category: "MAXXION",
+            isNew: true,
+            inStock: true,
+            originalIndex: accessoryNames.length + anwizNames.length + cableNames.length + cpPlusNames.length + dlinkNames.length + dahuaNames.length + erdNames.length + ezvizNames.length + finolexNames.length + hiFocusNames.length + hikvisionNames.length + imouNames.length + mastelNames.length + index
+        })),
+        ...hddNames.map((name, index) => ({
+            id: accessoryNames.length + anwizNames.length + cableNames.length + cpPlusNames.length + dlinkNames.length + dahuaNames.length + erdNames.length + ezvizNames.length + finolexNames.length + hiFocusNames.length + hikvisionNames.length + imouNames.length + mastelNames.length + maxxionNames.length + index + 1,
+            name,
+            image: findHddImage(name),
+            category: "HDD",
+            isNew: true,
+            inStock: true,
+            originalIndex: accessoryNames.length + anwizNames.length + cableNames.length + cpPlusNames.length + dlinkNames.length + dahuaNames.length + erdNames.length + ezvizNames.length + finolexNames.length + hiFocusNames.length + hikvisionNames.length + imouNames.length + mastelNames.length + maxxionNames.length + index
+        })),
+        ...sdCardNames.map((name, index) => ({
+            id: accessoryNames.length + anwizNames.length + cableNames.length + cpPlusNames.length + dlinkNames.length + dahuaNames.length + erdNames.length + ezvizNames.length + finolexNames.length + hiFocusNames.length + hikvisionNames.length + imouNames.length + mastelNames.length + maxxionNames.length + hddNames.length + index + 1,
+            name,
+            image: findSdCardImage(name),
+            category: "SD CARDS",
+            isNew: true,
+            inStock: true,
+            originalIndex: accessoryNames.length + anwizNames.length + cableNames.length + cpPlusNames.length + dlinkNames.length + dahuaNames.length + erdNames.length + ezvizNames.length + finolexNames.length + hiFocusNames.length + hikvisionNames.length + imouNames.length + mastelNames.length + maxxionNames.length + hddNames.length + index
+        })),
+        ...moniterNames.map((name, index) => ({
+            id: accessoryNames.length + anwizNames.length + cableNames.length + cpPlusNames.length + dlinkNames.length + dahuaNames.length + erdNames.length + ezvizNames.length + finolexNames.length + hiFocusNames.length + hikvisionNames.length + imouNames.length + mastelNames.length + maxxionNames.length + hddNames.length + index + 1,
+            name,
+            image: findMonitorImage(name),
+            category: "MONITOR",
+            isNew: true,
+            inStock: true,
+            originalIndex: accessoryNames.length + anwizNames.length + cableNames.length + cpPlusNames.length + dlinkNames.length + dahuaNames.length + erdNames.length + ezvizNames.length + finolexNames.length + hiFocusNames.length + hikvisionNames.length + imouNames.length + mastelNames.length + maxxionNames.length + hddNames.length + index
+        }))
+    ];
+
+    // Append SECUREYE products to products list
+    // Helper: list of SECUREYE image filenames (from assets/img/SECUREYE)
+    const secureyeImageFiles = [
+        // populate with filenames from assets/img/SECUREYE if available
+    ];
+
+    const findSecureyeImage = (productName) => {
+        const pn = _normalize(productName);
+        for (const f of secureyeImageFiles) {
+            const base = f.replace(/\.[^.]+$/, "");
+            const fn = _normalize(base);
+            if (!fn) continue;
+            if (fn.includes(pn) || pn.includes(fn)) {
+                return `assets/img/SECUREYE/${encodeURIComponent(f)}`;
+            }
+        }
+
+        try {
+            const cleaned = (productName || "").toString().trim();
+            if (!cleaned) return null;
+            const exts = ['jpg', 'jpeg', 'png', 'webp'];
+            for (const ext of exts) {
+                const candidate = `${cleaned}.${ext}`;
+                if (secureyeImageFiles.includes(candidate)) return `assets/img/SECUREYE/${encodeURIComponent(candidate)}`;
+            }
+
+            const safe = cleaned.replace(/[\\/:*?"<>|]/g, '');
+            for (const ext of exts) {
+                const candidate = `${safe}.${ext}`;
+                if (secureyeImageFiles.includes(candidate)) return `assets/img/SECUREYE/${encodeURIComponent(candidate)}`;
+            }
+
+            return `assets/img/SECUREYE/${encodeURIComponent(cleaned + '.jpg')}`;
+        } catch (e) {
+            return null;
+        }
+    };
+
+    if (Array.isArray(secureyeNames) && secureyeNames.length) {
+        secureyeNames.forEach((name) => {
+            products.push({
+                id: products.length + 1,
+                name,
+                image: findSecureyeImage(name),
+                category: "SECUREYE",
+                isNew: true,
+                inStock: true,
+                originalIndex: products.length
+            });
+        });
+    }
+
+    // Append SECURUS products to products list
+    // Helper: list of SECURUS image filenames (from assets/img/SECURUS)
+    const securusImageFiles = [
+        "AHUJA NE 630VG MIC.jpg",
+        "JACK CABEL.jpg",
+        "SECURUS 16CH NVR 2SATA.jpg",
+        "SECURUS 16CH NVR.jpg",
+        "SECURUS 2.4MP COLOUR+AUDIO DOME.jpg",
+        "SECURUS 2MP COLOUR+AUDIO BULLET.jpg",
+        "SECURUS 32CH NVR (SS-N8032RV-H2-M5).jpg",
+        "SECURUS 3MP 5G PT(SS-20PTXG-CSUTL-M3.jpg",
+        "SECURUS 3MP IP  4 CABEL.jpg",
+        "SECURUS 3MP IP C+2WAY DOME.jpg",
+        "SECURUS 3MP IP C+A BULLET.jpg",
+        "SECURUS 3MP IP C+A DOME.jpg",
+        "SECURUS 5MP IP BULLET.jpg",
+        "SECURUS 5MP IP BULLETS.jpg",
+        "SECURUS 5MP IP DOME.jpg",
+        "SECURUS 8CH DVR.jpg",
+        "SECURUS 9CH NVR.jpg",
+        "SECURUS INDOOR SPEAKER.jpg",
+        "SECURUS PTZ 5MP.jpg"
+    ];
+
+    const findSecurusImage = (productName) => {
+        const pn = _normalize(productName);
+        for (const f of securusImageFiles) {
+            const base = f.replace(/\.[^.]+$/, "");
+            const fn = _normalize(base);
+            if (!fn) continue;
+            if (fn.includes(pn) || pn.includes(fn)) {
+                return `assets/img/SECURUS/${encodeURIComponent(f)}`;
+            }
+        }
+
+        try {
+            const cleaned = (productName || "").toString().trim();
+            if (!cleaned) return null;
+            const exts = ['jpg', 'jpeg', 'png', 'webp'];
+            for (const ext of exts) {
+                const candidate = `${cleaned}.${ext}`;
+                if (securusImageFiles.includes(candidate)) return `assets/img/SECURUS/${encodeURIComponent(candidate)}`;
+            }
+
+            const safe = cleaned.replace(/[\\/:*?"<>|]/g, '');
+            for (const ext of exts) {
+                const candidate = `${safe}.${ext}`;
+                if (securusImageFiles.includes(candidate)) return `assets/img/SECURUS/${encodeURIComponent(candidate)}`;
+            }
+
+            return `assets/img/SECURUS/${encodeURIComponent(cleaned + '.jpg')}`;
+        } catch (e) {
+            return null;
+        }
+    };
+
+    if (Array.isArray(securusNames) && securusNames.length) {
+        securusNames.forEach((name) => {
+            products.push({
+                id: products.length + 1,
+                name,
+                image: findSecurusImage(name),
+                category: "SECURUS",
+                isNew: true,
+                inStock: true,
+                originalIndex: products.length
+            });
+        });
+    }
+
+    // Append TP LINK products to products list
+    // Helper: list of TP LINK image filenames (from assets/img/TP LINK)
+    const tplinkImageFiles = [
+        // populate with filenames from assets/img/TP LINK if available
+    ];
+
+    const findTplinkImage = (productName) => {
+        const pn = _normalize(productName);
+        for (const f of tplinkImageFiles) {
+            const base = f.replace(/\.[^.]+$/, "");
+            const fn = _normalize(base);
+            if (!fn) continue;
+            if (fn.includes(pn) || pn.includes(fn)) {
+                return `assets/img/TP LINK/${encodeURIComponent(f)}`;
+            }
+        }
+
+        try {
+            const cleaned = (productName || "").toString().trim();
+            if (!cleaned) return null;
+            const exts = ['jpg', 'jpeg', 'png', 'webp'];
+            for (const ext of exts) {
+                const candidate = `${cleaned}.${ext}`;
+                if (tplinkImageFiles.includes(candidate)) return `assets/img/TP LINK/${encodeURIComponent(candidate)}`;
+            }
+
+            const safe = cleaned.replace(/[\\/:*?"<>|]/g, '');
+            for (const ext of exts) {
+                const candidate = `${safe}.${ext}`;
+                if (tplinkImageFiles.includes(candidate)) return `assets/img/TP LINK/${encodeURIComponent(candidate)}`;
+            }
+
+            return `assets/img/TP LINK/${encodeURIComponent(cleaned + '.jpg')}`;
+        } catch (e) {
+            return null;
+        }
+    };
+
+    if (Array.isArray(tplinkNames) && tplinkNames.length) {
+        tplinkNames.forEach((name) => {
+            products.push({
+                id: products.length + 1,
+                name,
+                image: findTplinkImage(name),
+                category: "TP LINK",
+                isNew: true,
+                inStock: true,
+                originalIndex: products.length
+            });
+        });
+    }
+
+    // Append TRUEVIEW products to products list (use "TRUE VIEW" to match sidebar filter)
+    // Helper: list of TRUE VIEW image filenames (from assets/img/TRUE VIEW)
+    const trueviewImageFiles = [
+        // populate with filenames from assets/img/TRUE VIEW if available
+    ];
+
+    const findTrueviewImage = (productName) => {
+        const pn = _normalize(productName);
+        for (const f of trueviewImageFiles) {
+            const base = f.replace(/\.[^.]+$/, "");
+            const fn = _normalize(base);
+            if (!fn) continue;
+            if (fn.includes(pn) || pn.includes(fn)) {
+                return `assets/img/TRUE VIEW/${encodeURIComponent(f)}`;
+            }
+        }
+
+        try {
+            const cleaned = (productName || "").toString().trim();
+            if (!cleaned) return null;
+            const exts = ['jpg', 'jpeg', 'png', 'webp'];
+            for (const ext of exts) {
+                const candidate = `${cleaned}.${ext}`;
+                if (trueviewImageFiles.includes(candidate)) return `assets/img/TRUE VIEW/${encodeURIComponent(candidate)}`;
+            }
+
+            const safe = cleaned.replace(/[\\/:*?"<>|]/g, '');
+            for (const ext of exts) {
+                const candidate = `${safe}.${ext}`;
+                if (trueviewImageFiles.includes(candidate)) return `assets/img/TRUE VIEW/${encodeURIComponent(candidate)}`;
+            }
+
+            return `assets/img/TRUE VIEW/${encodeURIComponent(cleaned + '.jpg')}`;
+        } catch (e) {
+            return null;
+        }
+    };
+
+    if (Array.isArray(trueviewNames) && trueviewNames.length) {
+        trueviewNames.forEach((name) => {
+            products.push({
+                id: products.length + 1,
+                name,
+                image: findTrueviewImage(name),
+                category: "TRUE VIEW",
+                isNew: true,
+                inStock: true,
+                originalIndex: products.length
+            });
+        });
+    }
+
+    // Append ZEBRONICS products to products list
+    // Helper: list of ZEBRONICS image filenames (from assets/img/ZEBRONICS)
+    const zebronicsImageFiles = [
+        // populate with filenames from assets/img/ZEBRONICS if available
+    ];
+
+    const findZebronicsImage = (productName) => {
+        const pn = _normalize(productName);
+        for (const f of zebronicsImageFiles) {
+            const base = f.replace(/\.[^.]+$/, "");
+            const fn = _normalize(base);
+            if (!fn) continue;
+            if (fn.includes(pn) || pn.includes(fn)) {
+                return `assets/img/ZEBRONICS/${encodeURIComponent(f)}`;
+            }
+        }
+
+        try {
+            const cleaned = (productName || "").toString().trim();
+            if (!cleaned) return null;
+            const exts = ['jpg', 'jpeg', 'png', 'webp'];
+            for (const ext of exts) {
+                const candidate = `${cleaned}.${ext}`;
+                if (zebronicsImageFiles.includes(candidate)) return `assets/img/ZEBRONICS/${encodeURIComponent(candidate)}`;
+            }
+
+            const safe = cleaned.replace(/[\\/:*?"<>|]/g, '');
+            for (const ext of exts) {
+                const candidate = `${safe}.${ext}`;
+                if (zebronicsImageFiles.includes(candidate)) return `assets/img/ZEBRONICS/${encodeURIComponent(candidate)}`;
+            }
+
+            return `assets/img/ZEBRONICS/${encodeURIComponent(cleaned + '.jpg')}`;
+        } catch (e) {
+            return null;
+        }
+    };
+
+    if (Array.isArray(zebNames) && zebNames.length) {
+        zebNames.forEach((name) => {
+            products.push({
+                id: products.length + 1,
+                name,
+                image: findZebronicsImage(name),
+                category: "ZEBRONICS",
+                isNew: true,
+                inStock: true,
+                originalIndex: products.length
+            });
+        });
+    }
+
+    // Helper: list of YADON image filenames (from assets/img/YADON)
+    const yadonImageFiles = [
+        // populate with filenames from assets/img/YADON if available
+    ];
+
+    const findYadonImage = (productName) => {
+        const pn = _normalize(productName);
+        for (const f of yadonImageFiles) {
+            const base = f.replace(/\.[^.]+$/, "");
+            const fn = _normalize(base);
+            if (!fn) continue;
+            if (fn.includes(pn) || pn.includes(fn)) {
+                return `assets/img/YADON/${encodeURIComponent(f)}`;
+            }
+        }
+
+        try {
+            const cleaned = (productName || "").toString().trim();
+            if (!cleaned) return null;
+            const exts = ['jpg', 'jpeg', 'png', 'webp'];
+            for (const ext of exts) {
+                const candidate = `${cleaned}.${ext}`;
+                if (yadonImageFiles.includes(candidate)) return `assets/img/YADON/${encodeURIComponent(candidate)}`;
+            }
+
+            const safe = cleaned.replace(/[\\/:*?"<>|]/g, '');
+            for (const ext of exts) {
+                const candidate = `${safe}.${ext}`;
+                if (yadonImageFiles.includes(candidate)) return `assets/img/YADON/${encodeURIComponent(candidate)}`;
+            }
+
+            return `assets/img/YADON/${encodeURIComponent(cleaned + '.jpg')}`;
+        } catch (e) {
+            return null;
+        }
+    };
+
+    if (Array.isArray(yadonNames) && yadonNames.length) {
+        yadonNames.forEach((name) => {
+            products.push({
+                id: products.length + 1,
+                name,
+                image: findYadonImage(name),
+                category: "YADON",
+                isNew: true,
+                inStock: true,
+                originalIndex: products.length
+            });
+        });
+    }
+
+    // Append RACK products to products list
+    if (Array.isArray(rackNames) && rackNames.length) {
+        rackNames.forEach((name) => {
+            products.push({
+                id: products.length + 1,
+                name,
+                category: "RACK",
+                isNew: true,
+                inStock: true,
+                originalIndex: products.length
+            });
+        });
+    }
+
+    // Remove duplicate products by name (case-insensitive), keep first occurrence
+    {
+        const seenNames = new Set();
+        products = products.filter(p => {
+            const key = (p.name || "").trim().toLowerCase();
+            if (seenNames.has(key)) return false;
+            seenNames.add(key);
+            return true;
+        });
+    }
+
+    const elements = {
+        productsGrid: document.getElementById("productsGrid"),
+        productCount: document.getElementById("productCount"),
+        sortSelect: document.getElementById("sortSelect"),
+        pagination: document.getElementById("pagination"),
+        clearFilters: document.getElementById("clearFilters"),
+        inStockFilter: document.getElementById("inStockFilter"),
+        categoryFilters: document.getElementById("categoryFilters"),
+        mobileFilterToggle: document.querySelector(".mobile-filter-toggle"),
+        productSidebar: document.querySelector(".product-sidebar")
+    };
+
+    const state = {
+        currentPage: 1,
+        perPage: 24,
+        selectedCategories: new Set(),
+        sortBy: "default"
+    };
+
+    const getFilteredProducts = () => {
+        let filtered = [...products];
+
+        if (state.selectedCategories.size > 0) {
+            filtered = filtered.filter(item => state.selectedCategories.has(item.category));
+        }
+
+        if (elements.inStockFilter && elements.inStockFilter.checked) {
+            filtered = filtered.filter(item => item.inStock);
+        }
+
+        switch (state.sortBy) {
+            case "name-asc":
+                filtered.sort((a, b) => a.name.localeCompare(b.name));
+                break;
+            case "name-desc":
+                filtered.sort((a, b) => b.name.localeCompare(a.name));
+                break;
+            case "category":
+                filtered.sort((a, b) => a.category.localeCompare(b.category));
+                break;
+            default:
+                filtered.sort((a, b) => a.originalIndex - b.originalIndex);
+        }
+
+        return filtered;
+    };
+
+    const buildPageList = (current, total) => {
+        const pages = [];
+        const delta = 2;
+        const range = [];
+
+        for (let i = 1; i <= total; i += 1) {
+            if (i === 1 || i === total || (i >= current - delta && i <= current + delta)) {
+                range.push(i);
+            }
+        }
+
+        let last = 0;
+        for (const page of range) {
+            if (page - last > 1) {
+                pages.push("...");
+            }
+            pages.push(page);
+            last = page;
+        }
+
+        return pages;
+    };
+
+    const renderPagination = (totalItems) => {
+        if (!elements.pagination) return;
+
+        const totalPages = Math.ceil(totalItems / state.perPage) || 1;
+        elements.pagination.innerHTML = "";
+
+        if (totalPages <= 1) return;
+
+        const createButton = (label, page, disabled = false, isActive = false) => {
+            const button = document.createElement("button");
+            button.className = `page-btn${isActive ? " active" : ""}`;
+            button.textContent = label;
+            button.disabled = disabled;
+            button.addEventListener("click", () => {
+                state.currentPage = page;
+                render();
+                window.scrollTo({ top: 0, behavior: "smooth" });
+            });
+            return button;
+        };
+
+        elements.pagination.appendChild(
+            createButton("<", Math.max(1, state.currentPage - 1), state.currentPage === 1)
+        );
+
+        const pageList = buildPageList(state.currentPage, totalPages);
+        pageList.forEach((page) => {
+            if (page === "...") {
+                const ellipsis = document.createElement("span");
+                ellipsis.className = "page-ellipsis";
+                ellipsis.textContent = "...";
+                elements.pagination.appendChild(ellipsis);
+            } else {
+                elements.pagination.appendChild(
+                    createButton(page, page, false, page === state.currentPage)
+                );
+            }
+        });
+
+        elements.pagination.appendChild(
+            createButton(">",
+                Math.min(totalPages, state.currentPage + 1),
+                state.currentPage === totalPages
+            )
+        );
+    };
+
+    const renderProducts = (filtered) => {
+        if (!elements.productsGrid) return;
+
+        const start = (state.currentPage - 1) * state.perPage;
+        const end = start + state.perPage;
+        const pageItems = filtered.slice(start, end);
+
+        if (pageItems.length === 0) {
+            elements.productsGrid.innerHTML = `
+                <div class="no-products-found">
+                    <i class="fa-solid fa-box-open"></i>
+                    <h3>No products found</h3>
+                    <p>Try adjusting your filters.</p>
+                </div>
+            `;
+            return;
+        }
+
+        elements.productsGrid.innerHTML = pageItems
+            .map((product) => {
+                return `
+                    <div class="product-card" data-category="${product.category}" data-product-id="${product.id}">
+                        ${product.image ? `
+                        <div class="product-image">
+                            <img src="${product.image}" alt="${product.name}" />
+                        </div>
+                        ` : `
+                        <div class="product-image">
+                            <div class="product-placeholder"><i class="fa-solid fa-box"></i></div>
+                        </div>
+                        `}
+                        <div class="product-info">
+                            <h3 class="product-title">${product.name}</h3>
+                            <div class="product-brand">${product.category}</div>
+                        </div>
+                        <div class="product-card-controls">
+                            <button class="card-cart-add" data-id="${product.id}" aria-label="Add to cart">Add</button>
+                            <div class="card-qty" data-id="${product.id}" style="display:none;">
+                                <button class="qty-decrease" aria-label="Decrease"><i class="fa-solid fa-minus"></i></button>
+                                <span class="qty-value">1</span>
+                                <button class="qty-increase" aria-label="Increase"><i class="fa-solid fa-plus"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                `;
+            })
+            .join("");
+
+        // After rendering, wire up controls and sync initial states from localStorage
+        const CART_KEY = 'pvcCart';
+        const getCartLocal = () => {
+            try {
+                const raw = localStorage.getItem(CART_KEY);
+                return raw ? JSON.parse(raw) : [];
+            } catch (e) {
+                return [];
+            }
+        };
+        const saveCartLocal = (cart) => {
+            localStorage.setItem(CART_KEY, JSON.stringify(cart));
+            if (typeof updateFloatingCartButton === 'function') updateFloatingCartButton();
+            if (typeof updateCartTotals === 'function') updateCartTotals();
+        };
+
+        const findCartItem = (model) => getCartLocal().find(i => String(i.model) === String(model));
+
+        const showQtyControl = (cardEl, qty) => {
+            const addBtn = cardEl.querySelector('.card-cart-add');
+            const qtyWrap = cardEl.querySelector('.card-qty');
+            if (addBtn) addBtn.style.display = 'none';
+            if (qtyWrap) {
+                qtyWrap.style.display = 'flex';
+                const val = qtyWrap.querySelector('.qty-value');
+                if (val) val.textContent = qty;
+            }
+        };
+
+        const showAddButton = (cardEl) => {
+            const addBtn = cardEl.querySelector('.card-cart-add');
+            const qtyWrap = cardEl.querySelector('.card-qty');
+            if (addBtn) addBtn.style.display = '';
+            if (qtyWrap) qtyWrap.style.display = 'none';
+        };
+
+        const addProductLocal = (productId) => {
+            const prod = products.find(p => p.id === Number(productId));
+            if (!prod) return;
+            const cart = getCartLocal();
+            const existing = cart.find(i => String(i.model) === String(productId));
+            if (existing) {
+                existing.quantity = (existing.quantity || 1) + 1;
+            } else {
+                cart.push({
+                    name: prod.name,
+                    model: String(prod.id),
+                    price: prod.price ?? 0,
+                    image: prod.image || 'assets/img/products/network-products-update.png',
+                    quantity: 1
+                });
+            }
+            saveCartLocal(cart);
+        };
+
+        const setProductQuantityLocal = (productId, qty) => {
+            const cart = getCartLocal();
+            const idx = cart.findIndex(i => String(i.model) === String(productId));
+            if (idx === -1 && qty > 0) {
+                const prod = products.find(p => p.id === Number(productId));
+                if (!prod) return;
+                cart.push({ name: prod.name, model: String(prod.id), price: prod.price ?? 0, image: prod.image || 'assets/img/products/network-products-update.png', quantity: qty });
+            } else if (idx !== -1) {
+                if (qty <= 0) {
+                    cart.splice(idx, 1);
+                } else {
+                    cart[idx].quantity = qty;
+                }
+            }
+            saveCartLocal(cart);
+        };
+
+        // initialize controls per card
+        elements.productsGrid.querySelectorAll('.product-card').forEach(card => {
+            const pid = card.dataset.productId;
+            const addBtn = card.querySelector('.card-cart-add');
+            const qtyWrap = card.querySelector('.card-qty');
+
+            const cartItem = findCartItem(pid);
+            if (cartItem) {
+                showQtyControl(card, cartItem.quantity || 1);
+            } else {
+                showAddButton(card);
+            }
+
+            if (addBtn) addBtn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                addProductLocal(pid);
+                showQtyControl(card, 1);
+            });
+
+            if (qtyWrap) {
+                const decrease = qtyWrap.querySelector('.qty-decrease');
+                const increase = qtyWrap.querySelector('.qty-increase');
+                const valEl = qtyWrap.querySelector('.qty-value');
+
+                decrease.addEventListener('click', (e) => {
+                    e.stopPropagation();
+                    let current = parseInt(valEl.textContent, 10) || 1;
+                    if (current > 1) {
+                        current -= 1;
+                        valEl.textContent = current;
+                        setProductQuantityLocal(pid, current);
+                    } else {
+                        // Remove item when decreasing from 1 to 0
+                        setProductQuantityLocal(pid, 0);
+                        // switch UI back to add button
+                        showAddButton(card);
+                    }
+                });
+
+                increase.addEventListener('click', (e) => {
+                    e.stopPropagation();
+                    let current = parseInt(valEl.textContent, 10) || 1;
+                    current += 1;
+                    valEl.textContent = current;
+                    setProductQuantityLocal(pid, current);
+                });
+            }
+        });
+    };
+
+    const render = () => {
+        const filtered = getFilteredProducts();
+        if (elements.productCount) {
+            elements.productCount.textContent = filtered.length;
+        }
+        renderProducts(filtered);
+        renderPagination(filtered.length);
+    };
+
+    const bindEvents = () => {
+        if (elements.sortSelect) {
+            elements.sortSelect.addEventListener("change", (e) => {
+                state.sortBy = e.target.value;
+                state.currentPage = 1;
+                render();
+            });
+        }
+
+        if (elements.categoryFilters) {
+            // Prevent feedback loops when we programmatically change checkboxes
+            let ignoreCategoryChange = false;
+
+            elements.categoryFilters.addEventListener("change", (e) => {
+                if (ignoreCategoryChange) return;
+                const target = e.target;
+                if (!target || target.name !== 'category') return;
+
+                // preserve scroll position to avoid unwanted jumps during filtering
+                const scrollY = window.scrollY || document.documentElement.scrollTop || 0;
+
+                const allInput = elements.categoryFilters.querySelector("input[name='category'][value='ALL CATEGORIES']");
+
+                // If user clicked the ALL CATEGORIES checkbox
+                if (target.value === 'ALL CATEGORIES') {
+                    if (target.checked) {
+                        // user selected ALL -> uncheck others
+                        ignoreCategoryChange = true;
+                        elements.categoryFilters
+                            .querySelectorAll("input[name='category']")
+                            .forEach((input) => {
+                                if (input.value !== 'ALL CATEGORIES') input.checked = false;
+                            });
+                        state.selectedCategories = new Set();
+                        // ensure ALL remains checked
+                        if (allInput) allInput.checked = true;
+                        setTimeout(() => { ignoreCategoryChange = false; }, 0);
+                    } else {
+                        // user unchecked ALL -> if no other categories are checked, re-check ALL (keep default)
+                        const otherChecked = elements.categoryFilters.querySelectorAll("input[name='category']:checked:not([value='ALL CATEGORIES'])");
+                        if (otherChecked.length === 0 && allInput) {
+                            ignoreCategoryChange = true;
+                            allInput.checked = true;
+                            setTimeout(() => { ignoreCategoryChange = false; }, 0);
+                        }
+                        state.selectedCategories = new Set();
+                    }
+                } else {
+                    // User clicked a non-ALL category
+                    const otherChecked = elements.categoryFilters.querySelectorAll("input[name='category']:checked:not([value='ALL CATEGORIES'])");
+
+                    if (target.checked) {
+                        // uncheck ALL if it's currently checked
+                        if (allInput && allInput.checked) {
+                            ignoreCategoryChange = true;
+                            allInput.checked = false;
+                            setTimeout(() => { ignoreCategoryChange = false; }, 0);
+                        }
+                    }
+
+                    // If after this action no non-ALL categories are checked, re-enable ALL
+                    const remaining = elements.categoryFilters.querySelectorAll("input[name='category']:checked:not([value='ALL CATEGORIES'])");
+                    if (remaining.length === 0) {
+                        // no specific categories selected -> default back to ALL
+                        if (allInput) {
+                            ignoreCategoryChange = true;
+                            allInput.checked = true;
+                            setTimeout(() => { ignoreCategoryChange = false; }, 0);
+                        }
+                        state.selectedCategories = new Set();
+                    } else {
+                        // collect selected categories into state
+                        const values = Array.from(remaining).map(i => i.value);
+                        state.selectedCategories = new Set(values);
+                    }
+                }
+
+                // Update label visual state: add/remove 'is-checked' class
+                try {
+                    const labels = elements.categoryFilters.querySelectorAll('.filter-checkbox-label');
+                    labels.forEach(lbl => {
+                        const inp = lbl.querySelector('input[type="checkbox"][name="category"]');
+                        if (inp && inp.checked) lbl.classList.add('is-checked');
+                        else lbl.classList.remove('is-checked');
+                    });
+                } catch (e) {
+                    // ignore
+                }
+
+                state.currentPage = 1;
+                render();
+
+                // restore scroll position immediately after rendering
+                setTimeout(() => {
+                    window.scrollTo({ top: scrollY, left: 0, behavior: 'auto' });
+                }, 0);
+            });
+
+            // Prevent any accidental form submission or default actions if checkboxes are inside a form
+            elements.categoryFilters.addEventListener('click', (ev) => {
+                const target = ev.target;
+                if (target && target.tagName === 'INPUT' && target.type === 'checkbox') {
+                    // stop any default navigation behavior while allowing the checkbox toggle
+                    // (do not call preventDefault to allow checking)
+                    // record scroll position to restore after change event
+                    // handled in change listener above
+                }
+            });
+        }
+
+        if (elements.inStockFilter) {
+            elements.inStockFilter.addEventListener("change", () => {
+                state.currentPage = 1;
+                render();
+            });
+        }
+
+        if (elements.clearFilters) {
+            elements.clearFilters.addEventListener("click", () => {
+                if (elements.categoryFilters) {
+                    elements.categoryFilters
+                        .querySelectorAll("input[name='category']")
+                        .forEach((input) => (input.checked = false));
+                }
+                if (elements.inStockFilter) {
+                    elements.inStockFilter.checked = false;
+                }
+                state.selectedCategories = new Set();
+                state.currentPage = 1;
+                render();
+            });
+        }
+
+        // Mobile filter modal behavior: open centered popup and close on selection
+        if (elements.mobileFilterToggle && elements.productSidebar && elements.categoryFilters) {
+            let _mobileBackdrop = null;
+
+            const openMobileFilters = () => {
+                // show sidebar as modal
+                elements.productSidebar.classList.add('mobile-active');
+                // create backdrop
+                _mobileBackdrop = document.createElement('div');
+                _mobileBackdrop.className = 'mobile-filter-backdrop';
+                document.body.appendChild(_mobileBackdrop);
+                // trigger show animation
+                requestAnimationFrame(() => elements.productSidebar.classList.add('mobile-show'));
+                _mobileBackdrop.addEventListener('click', closeMobileFilters);
+                // prevent background scroll
+                document.documentElement.style.overflow = 'hidden';
+                document.body.style.overflow = 'hidden';
+            };
+
+            const closeMobileFilters = () => {
+                if (!elements.productSidebar.classList.contains('mobile-active')) return;
+                elements.productSidebar.classList.remove('mobile-show');
+                // wait for animation to finish then remove active and backdrop
+                setTimeout(() => {
+                    // remove actions area if present
+                    const actions = elements.productSidebar.querySelector('.mobile-filter-actions');
+                    if (actions && actions.parentNode) actions.parentNode.removeChild(actions);
+                    elements.productSidebar.classList.remove('mobile-active');
+                    // also ensure any legacy 'active' flag is cleared so wrapper hides on mobile
+                    elements.productSidebar.classList.remove('active');
+                    if (_mobileBackdrop && _mobileBackdrop.parentNode) _mobileBackdrop.parentNode.removeChild(_mobileBackdrop);
+                    _mobileBackdrop = null;
+                    document.documentElement.style.overflow = '';
+                    document.body.style.overflow = '';
+                }, 220);
+            };
+
+            elements.mobileFilterToggle.addEventListener('click', (ev) => {
+                ev.preventDefault();
+                // toggle
+                if (elements.productSidebar.classList.contains('mobile-active')) closeMobileFilters();
+                else openMobileFilters();
+            });
+
+            // When a category is changed on mobile, show an Apply button instead of closing immediately
+            elements.categoryFilters.addEventListener('change', (ev) => {
+                if (window.innerWidth <= 768 && elements.productSidebar.classList.contains('mobile-active')) {
+                    // show or create actions area with Apply button
+                    let actions = elements.productSidebar.querySelector('.mobile-filter-actions');
+                    if (!actions) {
+                        actions = document.createElement('div');
+                        actions.className = 'mobile-filter-actions';
+                        const applyBtn = document.createElement('button');
+                        applyBtn.id = 'mobileApplyBtn';
+                        applyBtn.type = 'button';
+                        applyBtn.className = 'mobile-apply-btn';
+                        applyBtn.textContent = 'Apply';
+                        actions.appendChild(applyBtn);
+                        elements.productSidebar.appendChild(actions);
+
+                        applyBtn.addEventListener('click', () => {
+                            // apply: close modal, then render and scroll products into view after close animation
+                            closeMobileFilters();
+                            setTimeout(() => {
+                                state.currentPage = 1;
+                                render();
+                                if (elements.productsGrid) {
+                                    try {
+                                        elements.productsGrid.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                                    } catch (e) {
+                                        window.scrollTo({ top: 0, behavior: 'smooth' });
+                                    }
+                                } else {
+                                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                                }
+                            }, 260); // wait for modal close animation to finish
+                        });
+                    } else {
+                        actions.style.display = '';
+                    }
+                }
+            });
+        }
+
+        // Note: mobile toggle behavior is handled above (openMobileFilters/closeMobileFilters)
+    };
+
+    bindEvents();
+
+    // If a category was passed via query param (e.g. ?category=ACCESSORIES), apply it before initial render
+    (function applyCategoryFromUrl() {
+        try {
+            const params = new URLSearchParams(window.location.search);
+            const catParam = params.get('category') || params.get('cat');
+            if (!catParam) return;
+            const desired = String(catParam).trim().toUpperCase();
+            if (!elements.categoryFilters) return;
+
+            // uncheck all category inputs, then check the desired one
+            const inputs = elements.categoryFilters.querySelectorAll('input[name="category"]');
+            inputs.forEach(i => i.checked = false);
+
+            const targetInput = elements.categoryFilters.querySelector(`input[name="category"][value="${desired}"]`);
+            if (targetInput) {
+                targetInput.checked = true;
+                // update state
+                if (desired === 'ALL CATEGORIES') state.selectedCategories = new Set();
+                else state.selectedCategories = new Set([desired]);
+
+                // update label visual states
+                const labels = elements.categoryFilters.querySelectorAll('.filter-checkbox-label');
+                labels.forEach(lbl => {
+                    const inp = lbl.querySelector('input[name="category"]');
+                    if (inp && inp.checked) lbl.classList.add('is-checked');
+                    else lbl.classList.remove('is-checked');
+                });
+            }
+        } catch (e) {
+            // ignore URL parsing errors
+        }
+    })();
+
+    render();
+})();
