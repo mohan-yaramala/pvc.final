@@ -1019,6 +1019,78 @@
         "ZEBRONICS CAT6 305MTRS CABLE"
     ];
 
+    // Mapping: cable product name to image filename (exact matches only)
+    const cableImageMap = {
+        "A2 3+1 GOLD CABLE": "A2 3+1 GOLD CABLE.jpg",
+        "A2 3+1 OUTDOOR CABLE": "A2 3+1 OUTDOOR CABLE.jpg",
+        "CP 3+1 90 MTRS OUTDOOR": "CP 3+1 90 MTRS OUTDOOR.jpg",
+        "FINOLEX 2C 1SQURE POWER WIRE": "FINOLEX 2C 1SQURE POWER WIRE.jpg",
+        "FINOLEX 3+1 180MTR CABLE": "FINOLEX 3+1 180MTR CABLE.jpg",
+        "FINOLEX 3+1 305 MTRS CABLE": "FINOLEX 3+1 305 MTRS CABLE.jpg",
+        "FINOLEX 3+1 CABLE 90MTR": "FINOLEX 3+1 CABLE 90MTR.jpg",
+        "FINOLEX 305 MTR CAT6": "FINOLEX 305 MTR CAT6.jpg",
+        "FINOLEX CAT6 GRY 305MTRS CABLE": "FINOLEX CAT6 GRY 305MTRS CABLE.jpg",
+        "FINOLEX CAT6 LAN YLW 305MTR LOOSE CABLE": "FINOLEX CAT6 LAN YLW 305MTR LOOSE CABLE.jpg",
+        "HDMI 1.5 MTR CABLE": "HDMI 1.5 MTR CABLE.jpg",
+        "HDMI 1.5 MTRS CABLE MAXXICOM": "HDMI 1.5 MTRS CABLE MAXXICOM.jpg",
+        "HDMI 1.5MTR CABLE": "HDMI 1.5MTR CABLE.jpg",
+        "HDMI 10 MTR CABLE (GVISION)": "HDMI 10 MTR CABLE (GVISION).jpg",
+        "HDMI 10 MTRS CABLE (GIGPLUS)": "HDMI 10 MTRS CABLE (GIGPLUS).jpg",
+        "HDMI 15 MTR 4K": "HDMI 15 MTR 4K.jpg",
+        "HDMI 15 MTRS CABLE (M)": "HDMI 15 MTRS CABLE (M).jpg",
+        "HDMI 20 MTRS 4K CABLE": "HDMI 20 MTRS 4K CABLE.jpg",
+        "HDMI 20 MTRS CABLE": "HDMI 20 MTRS CABLE.jpg",
+        "HDMI 20 MTRS CABLE 4K": "HDMI 20 MTRS CABLE 4K.jpg",
+        "HDMI 3 MTR 4K (MAXICOM)": "HDMI 3 MTR 4K (MAXICOM).jpg",
+        "HDMI 3 MTR 4K CABLE": "HDMI 3 MTR 4K CABLE.jpg",
+        "HDMI 3 MTR GIGAPLUS": "HDMI 3 MTR GIGAPLUS.jpg",
+        "HDMI 3MTR CABLE RANZ": "HDMI 3MTR CABLE RANZ.jpg",
+        "HDMI 5 MTR 4K MAXICOM": "HDMI 5 MTR 4K MAXICOM.jpg",
+        "HDMI 5 MTRS CABLE": "HDMI 5 MTRS CABLE.jpg",
+        "HDMI 5 MTRS CABLE (GVISION)": "HDMI 5 MTRS CABLE (GVISION).jpg",
+        "HDMI 5 MTRS CABLE (M)": "HDMI 5 MTRS CABLE (M).jpg",
+        "HIFOCUS (HF) 3+1 90MTR OUTDOOR": "HIFOCUS (HF) 3+1 90MTR OUTDOOR.jpg",
+        "HIFOCUS (HF) CAT6 OUTDOOR CABLE": "HIFOCUS (HF) CAT6 OUTDOOR CABLE.jpg",
+        "HIFOCUS 3+1 90MTRS (HF GOLD)": "HIFOCUS 3+1 90MTRS (HF GOLD).jpg",
+        "HIK 3+1 90MTRS CABLE": "HIK 3+1 90MTRS CABLE.jpg",
+        "HONEWELL 3+1 CABLE": "HONEWELL 3+1 CABLE.jpg",
+        "HONEWELL CAT6 305 CABLE": "HONEWELL CAT6 305 CABLE.jpg",
+        "HOOPE ECO 90 YARD 3+1 CABLE": "HOOPE ECO 90 YARD 3+1 CABLE.jpg",
+        "HOOPEE CAT 6  305 MTRS": "HOOPEE CAT 6  305 MTRS.jpg",
+        "HOOPEE GOLD COPPER 3+1 CABLE": "HOOPEE GOLD COPPER 3+1 CABLE.jpg",
+        "ICONIC 3+1 ECO 90YARDS CABLE": "ICONIC 3+1 ECO 90YARDS CABLE.jpg",
+        "ICONIC 3+1 GOLD 90 MTRS CABLE": "ICONIC 3+1 GOLD 90 MTRS CABLE.jpg",
+        "ICONIC 3+1 OUTDOOR BLACK CABLE": "ICONIC 3+1 OUTDOOR BLACK CABLE.jpg",
+        "ICONIC 3+1 OUTDOOR CABLE": "ICONIC 3+1 OUTDOOR CABLE.jpg",
+        "ICONIC 3+1 PREMIUM 90MTRS CABLE": "ICONIC 3+1 PREMIUM 90MTRS CABLE.jpg",
+        "INTERCOM 2 PAIR CABLE BLACK 300MTR": "INTERCOM 2 PAIR CABLE BLACK 300MTR.jpg",
+        "IPSys 3+1 90 YARDS CABLE": "IPSys 3+1 90 YARDS CABLE.jpg",
+        "LAN 0.5MTR CABLE": "LAN 0.5MTR CABLE.jpg",
+        "LAN 10 MTRS CABLE (M)": "LAN 10 MTRS CABLE (M).jpg",
+        "LAN 20 MTRS CABLE (M)": "LAN 20 MTRS CABLE (M).jpg",
+        "LAN 2MTR CABLE": "LAN 2MTR CABLE.jpg",
+        "LAN 2MTR CAT6 CABLE": "LAN 2MTR CAT6 CABLE.jpg",
+        "LAN 3 MTRS CABLE (M)": "LAN 3 MTRS CABLE (M).jpg",
+        "LAN CABLE 3M GVISION(BLUE)": "LAN CABLE 3M GVISION(BLUE).jpg",
+        "LAN CABLE 5 MTRS (M)": "LAN CABLE 5 MTRS (M).jpg",
+        "LAN CAT 6 CABLE": "LAN CAT 6 CABLE.jpg",
+        "LAN PATCH 5 MTRS CABLE - BLACK CORD": "LAN PATCH 5 MTRS CABLE - BLACK CORD.jpg",
+        "LAN PATCH CORD 1.5M CAT6": "LAN PATCH CORD 1.5M CAT6.jpg",
+        "ME PREMIUM CCTV 3+1 CAMERA OUTDOOR": "ME PREMIUM CCTV 3+1 CAMERA OUTDOOR.jpg",
+        "SECUREYE 3+1 90YARDS CABLE": "SECUREYE 3+1 90YARDS CABLE.jpg",
+        "USB EXTENSION CABLE 10MTR": "USB EXTENSION CABLE 10MTR.jpg",
+        "VGA 1.5 MTRS CABLE": "VGA 1.5 MTRS CABLE.jpg",
+        "VGA 10MTR CABLE HEAVY": "VGA 10MTR CABLE HEAVY.jpg",
+        "VGA 3 MTR CABLE WHITE": "VGA 3 MTR CABLE WHITE.jpg",
+        "VGA 5MTR CABLE": "VGA 5MTR CABLE.jpg",
+        "VGA TO HDMI 1.8 MTR CABLE": "VGA TO HDMI 1.8 MTR CABLE.jpg",
+        "VOLTAIC COPPER CAT6 305 MTRS OUTDOOR": "VOLTAIC COPPER CAT6 305 MTRS OUTDOOR.jpg",
+        "ZEBRONICS 3+1 90 MTRS PRIME CABLE": "ZEBRONICS 3+1 90 MTRS PRIME CABLE.jpg",
+        "ZEBRONICS CAT6 100MTRS CABLE": "ZEBRONICS CAT6 100MTRS CABLE.jpg",
+        "ZEBRONICS CAT6 100MTRS CABLE ORIGINAL": "ZEBRONICS CAT6 100MTRS CABLE ORIGINAL.jpg",
+        "ZEBRONICS CAT6 305MTRS CABLE": "ZEBRONICS CAT6 305MTRS CABLE.jpg"
+    };
+
     const cpPlusNames = [
         "CP 16CH 2MP DVR",
         "CP 16CH 5MP DVR",
@@ -1083,6 +1155,70 @@
         "CP CAT6 305 NEW",
         "CP PT OUTDOOR CAMERA"
     ];
+
+    // Mapping: CP PLUS product name to image filename (exact matches only)
+    const cpPlusImageMap = {
+        "CP 16CH 2MP DVR": "CP 16CH 2MP DVR.jpg",
+        "CP 16CH 5MP DVR": "CP 16CH 5MP DVR.jpg",
+        "CP 16CH NVR 2 SATA": "CP 16CH NVR 2 SATA.jpg",
+        "CP 16CH NVR": "CP 16CH NVR.jpg",
+        "CP 16CH SMPS": "CP 16CH SMPS.jpg",
+        "CP 2MP BULLET 80 MTRS COSMIC": "CP 2MP BULLET 80 MTRS COSMIC.jpg",
+        "CP 2MP COLOUR BULLET (2)": "CP 2MP COLOUR BULLET (2).jpg",
+        "CP 2MP COLOUR DOME (2)": "CP 2MP COLOUR DOME (2).jpg",
+        "CP 2MP COLOUR DOME": "CP 2MP COLOUR DOME.jpg",
+        "CP 2MP GUARD  COLOUR BULLET 30MTR": "CP 2MP GUARD  COLOUR BULLET 30MTR.jpg",
+        "CP 2MP GUARD COLOUR DOME 30MTRS": "CP 2MP GUARD COLOUR DOME 30MTRS.jpg",
+        "CP 2MP GUARD COLOUR+AUDIO BULLET": "CP 2MP GUARD COLOUR+AUDIO BULLET.jpg",
+        "CP 2MP GUARD COLOUR+AUDIO DOME": "CP 2MP GUARD COLOUR+AUDIO DOME.jpg",
+        "CP 2MP ILL BULLET": "CP 2MP ILL BULLET.jpg",
+        "CP 2MP ILL DOME": "CP 2MP ILL DOME.jpg",
+        "CP 2MP IP BULLET SILVER SERIES": "CP 2MP IP BULLET SILVER SERIES.jpg",
+        "CP 2MP IP COLOUR BULLET CAMERA": "CP 2MP IP COLOUR BULLET CAMERA.jpg",
+        "CP 2MP IP COLOUR DOME CAMERA": "CP 2MP IP COLOUR DOME CAMERA.jpg",
+        "CP 2MP IP DOME CAMERA": "CP 2MP IP DOME CAMERA.jpg",
+        "CP 2MP IP DOME IR MIC": "CP 2MP IP DOME IR MIC.jpg",
+        "CP 2MP IP DOME SILVER SERIES": "CP 2MP IP DOME SILVER SERIES.jpg",
+        "CP 2MP IP DOME": "CP 2MP IP DOME.jpg",
+        "CP 2MP IP SILVER COLOUR + AUDIO BULLET": "CP 2MP IP SILVER COLOUR + AUDIO BULLET.jpg",
+        "CP 2MP IP SILVER COLOUR + AUDIO DOME": "CP 2MP IP SILVER COLOUR + AUDIO DOME.jpg",
+        "CP 2MP IR BULLET": "CP 2MP IR BULLET.jpg",
+        "CP 2MP IR DOME": "CP 2MP IR DOME.jpg",
+        "CP 2MP IR MIC BULLET CAMERA (TC24PL3C)": "CP 2MP IR MIC BULLET CAMERA (TC24PL3C).jpg",
+        "CP 2MP IR MIC DOME CAMERA (DC24PL3C)": "CP 2MP IR MIC DOME CAMERA (DC24PL3C).jpg",
+        "CP 2MP V3 BULLET CAMERA": "CP 2MP V3 BULLET CAMERA.jpg",
+        "CP 2MP V3 DOME CAMERA": "CP 2MP V3 DOME CAMERA.jpg",
+        "CP 2MP V3 MIC BULLET CAMERA": "CP 2MP V3 MIC BULLET CAMERA.jpg",
+        "CP 2MP V3 MIC DOME CAMERA": "CP 2MP V3 MIC DOME CAMERA.jpg",
+        "CP 2U RACK": "CP 2U RACK.jpg",
+        "CP 3+1 90MTR": "CP 3+1 90MTR.jpg",
+        "CP 32CH NVR 2 SATA": "CP 32CH NVR 2 SATA.jpg",
+        "CP 4CH 2MP DVR": "CP 4CH 2MP DVR.jpg",
+        "CP 4CH 5MP DVR": "CP 4CH 5MP DVR.jpg",
+        "CP 4CH NVR": "CP 4CH NVR.jpg",
+        "CP 4CH SMPS": "CP 4CH SMPS.jpg",
+        "CP 4G OUT BULLET CAMERA": "CP 4G OUT BULLET CAMERA.jpg",
+        "CP 4G ROUTER": "CP 4G ROUTER.jpg",
+        "CP 4MP IP COLOUR BULLET MIC CAM": "CP 4MP IP COLOUR BULLET MIC CAM.jpg",
+        "CP 4MP IP COLOUR+AUDIO DOME": "CP 4MP IP COLOUR+AUDIO DOME.jpg",
+        "CP 4MP IP DL UNC-TA41L3C-D-LQ GOLD BULLET": "CP 4MP IP DL UNC-TA41L3C-D-LQ GOLD BULLET.jpg",
+        "CP 4MP IP IR AUDIO BULLET": "CP 4MP IP IR AUDIO BULLET.jpg",
+        "CP 4MP IP IR DOME  CAMERA": "CP 4MP IP IR DOME  CAMERA.jpg",
+        "CP 4PORT POE SWITCH": "CP 4PORT POE SWITCH.jpg",
+        "CP 4U RACK": "CP 4U RACK.jpg",
+        "CP 5MP COLOUR BULLET CAMERA": "CP 5MP COLOUR BULLET CAMERA.jpg",
+        "CP 5MP GUARD + BULLET AUDIO": "CP 5MP GUARD + BULLET AUDIO.jpg",
+        "CP 5MP ILLMAX BULLET": "CP 5MP ILLMAX BULLET.jpg",
+        "CP 8+2 UPLINK 10-100 POE SWITCH": "CP 8+2 UPLINK 10-100 POE SWITCH.jpg",
+        "CP 8CH 2MP DVR": "CP 8CH 2MP DVR.jpg",
+        "CP 8CH 5MP DVR": "CP 8CH 5MP DVR.jpg",
+        "CP 8CH NVR": "CP 8CH NVR.jpg",
+        "CP 8CH SMPS": "CP 8CH SMPS.jpg",
+        "CP CAT6 100 NEW": "CP CAT6 100 NEW.jpg",
+        "CP CAT6 305 CABLE LOOSE": "CP CAT6 305 CABLE LOOSE.jpg",
+        "CP CAT6 305 NEW": "CP CAT6 305 NEW.jpg",
+        "CP PT OUTDOOR CAMERA": "CP PT OUTDOOR CAMERA.jpg"
+    };
 
     const dlinkNames = [
         "D LINK 2U MINI RACK",
@@ -1548,23 +1684,41 @@
 
     // RACK category product names
     const rackNames = [
-        "MAXXION 1U PLASTIC RACK",
-        "2U MINI RACK - 450 (N)",
-        "MAXXION OUTDOOR PVC POE RACK (MX-800D)",
-        "MAXXION OUTDOOR PVC POE RACK (MX-800E)",
-        "MAXXION OUTDOOR PVC POE RACK (MX-800F)",
-        "OUTDOOR RACK (H TYPE)",
-        "CP 2U RACK",
-        "CP 4U RACK",
-        "D LINK 2U MINI RACK",
-        "D LINK 2U RACK",
-        "D LINK 4U BIG RACK",
-        "D LINK 4U MINI RACK (UN)",
-        "D LINK 6U RACK",
-        "D LINK 9U RACK",
-        "D LINK TRAY RACK",
-        "TP LINK 18PORT GIGABITE RACKMOUNT WITH 16POE"
+        "1U VOLTAIC RACK",
+        "2U ECO RACK (N)",
+        "2U MINI RACK OLD",
+        "2U RACK HOOPOE FOLDING",
+        "2U VOLTAIC RACK",
+        "4U MINI RACK - 550",
+        "4U RACK BIG - 950",
+        "4U VOLTAIC RACK",
+        "AFT RACKS 2U -350D",
+        "AFT RACKS 2U MINI",
+        "AFT RACKS 4U -350D",
+        "AFT RACKS 4U MINI",
+        "AFT RACKS 6U -500D",
+        "D LINK 12U RACK",
+        "SGS DVR PLASTIC RACK BOX"
     ];
+
+    // Mapping: RACK product name to image filename (exact matches only)
+    const rackImageMap = {
+        "1U VOLTAIC RACK": "1U VOLTAIC RACK.jpg",
+        "2U ECO RACK (N)": "2U ECO RACK (N).jpg",
+        "2U MINI RACK OLD": "2U MINI RACK OLD.jpg",
+        "2U RACK HOOPOE FOLDING": "2U RACK HOOPOE FOLDING.jpg",
+        "2U VOLTAIC RACK": "2U VOLTAIC RACK.jpg",
+        "4U MINI RACK - 550": "4U MINI RACK - 550.jpg",
+        "4U RACK BIG - 950": "4U RACK BIG - 950.jpg",
+        "4U VOLTAIC RACK": "4U VOLTAIC RACK.jpg",
+        "AFT RACKS 2U -350D": "AFT RACKS 2U -350D.jpg",
+        "AFT RACKS 2U MINI": "AFT RACKS 2U MINI.jpg",
+        "AFT RACKS 4U -350D": "AFT RACKS 4U -350D.jpg",
+        "AFT RACKS 4U MINI": "AFT RACKS 4U MINI.jpg",
+        "AFT RACKS 6U -500D": "AFT RACKS 6U -500D.jpg",
+        "D LINK 12U RACK": "D LINK 12U RACK.jpg",
+        "SGS DVR PLASTIC RACK BOX": "SGS DVR PLASTIC RACK BOX.jpg"
+    };
     
     // Helper: list of D-LINK image filenames (from assets/img/d-link)
     const dlinkImageFiles = [
@@ -1748,10 +1902,23 @@
 
     // Helper: list of FINOLEX image filenames (from assets/img/FINOLEX)
     const finolexImageFiles = [
-        // populate with filenames from assets/img/FINOLEX if available
+        "FINOLEX CAT 6 305 MTR(NEW).jpg",
+        "FINOLEX CAT6 GRY 100MTRS.jpg",
+        "FINOLEX CAT6 LAN YLW 305MTR CABLE.jpg",
+        "FINOLEX TELEPHONE WIRE.jpg"
     ];
 
+    const finolexImageAliases = {
+        "CAT6 LAN GRY 100MTR NEW": "FINOLEX CAT6 GRY 100MTRS.jpg"
+    };
+
     const findFinolexImage = (productName) => {
+        const cleaned = (productName || "").toString().trim();
+        if (!cleaned) return null;
+        const alias = finolexImageAliases[cleaned];
+        if (alias && finolexImageFiles.includes(alias)) {
+            return `assets/img/FINOLEX/${encodeURIComponent(alias)}`;
+        }
         const pn = _normalize(productName);
         for (const f of finolexImageFiles) {
             const base = f.replace(/\.[^.]+$/, "");
@@ -1761,26 +1928,17 @@
                 return `assets/img/FINOLEX/${encodeURIComponent(f)}`;
             }
         }
-
-        try {
-            const cleaned = (productName || "").toString().trim();
-            if (!cleaned) return null;
-            const exts = ['jpg', 'jpeg', 'png', 'webp'];
-            for (const ext of exts) {
-                const candidate = `${cleaned}.${ext}`;
-                if (finolexImageFiles.includes(candidate)) return `assets/img/FINOLEX/${encodeURIComponent(candidate)}`;
-            }
-
-            const safe = cleaned.replace(/[\\/:*?"<>|]/g, '');
-            for (const ext of exts) {
-                const candidate = `${safe}.${ext}`;
-                if (finolexImageFiles.includes(candidate)) return `assets/img/FINOLEX/${encodeURIComponent(candidate)}`;
-            }
-
-            return `assets/img/FINOLEX/${encodeURIComponent(cleaned + '.jpg')}`;
-        } catch (e) {
-            return null;
+        const exts = ['jpg', 'jpeg', 'png', 'webp'];
+        for (const ext of exts) {
+            const candidate = `${cleaned}.${ext}`;
+            if (finolexImageFiles.includes(candidate)) return `assets/img/FINOLEX/${encodeURIComponent(candidate)}`;
         }
+        const safe = cleaned.replace(/[\\/:*?"<>|]/g, '');
+        for (const ext of exts) {
+            const candidate = `${safe}.${ext}`;
+            if (finolexImageFiles.includes(candidate)) return `assets/img/FINOLEX/${encodeURIComponent(candidate)}`;
+        }
+        return null;
     };
 
     // Helper: list of MASTEL image filenames (from assets/img/MASTEL)
@@ -1953,6 +2111,7 @@
         ...cableNames.map((name, index) => ({
             id: accessoryNames.length + anwizNames.length + index + 1,
             name,
+            image: cableImageMap[name] ? `assets/img/cables/${encodeURIComponent(cableImageMap[name])}` : undefined,
             category: "CABLES",
             isNew: true,
             inStock: true,
@@ -1961,10 +2120,20 @@
         ...cpPlusNames.map((name, index) => ({
             id: accessoryNames.length + anwizNames.length + cableNames.length + index + 1,
             name,
+            image: cpPlusImageMap[name] ? `assets/img/CP PLUS/${encodeURIComponent(cpPlusImageMap[name])}` : undefined,
             category: "CP PLUS",
             isNew: true,
             inStock: true,
             originalIndex: accessoryNames.length + anwizNames.length + cableNames.length + index
+        })),
+        ...rackNames.map((name, index) => ({
+            id: accessoryNames.length + anwizNames.length + cableNames.length + cpPlusNames.length + dlinkNames.length + index + 1,
+            name,
+            image: rackImageMap[name] ? `assets/img/RACK/${encodeURIComponent(rackImageMap[name])}` : undefined,
+            category: "RACK",
+            isNew: true,
+            inStock: true,
+            originalIndex: accessoryNames.length + anwizNames.length + cableNames.length + cpPlusNames.length + dlinkNames.length + index
         })),
         ...dlinkNames.map((name, index) => ({
             id: accessoryNames.length + anwizNames.length + cableNames.length + cpPlusNames.length + index + 1,
@@ -2420,6 +2589,7 @@
             products.push({
                 id: products.length + 1,
                 name,
+                image: findAccessoryImage(name),
                 category: "RACK",
                 isNew: true,
                 inStock: true,
@@ -2580,7 +2750,7 @@
                     <div class="product-card" data-category="${product.category}" data-product-id="${product.id}">
                         ${product.image ? `
                         <div class="product-image">
-                            <img src="${product.image}" alt="${product.name}" />
+                            <img src="${product.image}" alt="${product.name}" onerror="this.onerror=null;this.style.display='none';var c=this.parentElement;var p=c.querySelector('.product-placeholder');if(!p){p=document.createElement('div');p.className='product-placeholder';p.innerHTML='<i class=\\'fa-solid fa-box\\'></i>';c.appendChild(p);}" />
                         </div>
                         ` : `
                         <div class="product-image">
